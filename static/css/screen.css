@@ -243,3 +243,9 @@ ul.unstyled > li::before {
 .resume-item h3 {
   line-height: 28px;
 }
+.resume-item .li-comma::after {
+  content: ", ";
+}
+.resume-item .li-comma:last-child::after {
+  content: "";
+}

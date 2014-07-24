@@ -47,9 +47,9 @@ title: Resume
 						<ul>
 							{% for detail in school.details %}
 								<li>
-									<strong>{{ detail.name }}</strong>
+									<strong>{{ detail.name }}: </strong>
 									{% for item in detail.list %}
-										{{ item }}
+										<span class="li-comma">{{ item }}</span>
 									{% endfor %}
 								</li>
 							{% endfor %}
