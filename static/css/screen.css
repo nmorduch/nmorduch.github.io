@@ -1,0 +1,110 @@
+body {
+  padding-bottom: 38px;
+  font-weight: 300;
+}
+
+header {
+  background-color: #4f6d8c;
+  text-align: center;
+  padding: 44px 0;
+  margin-bottom: 44px;
+  border-bottom: 5px solid #402c24;
+}
+header h1 {
+  margin: 0;
+  color: #f0f2f1;
+}
+header h3 {
+  margin: 0;
+  margin-top: 11px;
+  color: #b0b2a6;
+}
+
+.navbar {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+.panel-body > h1:first-child, .panel-body > h2:first-child, .panel-body > h3:first-child, .panel-body > h4:first-child, .panel-body > h5:first-child, .panel-body > h6:first-child {
+  margin-top: 0;
+}
+
+.panel-title {
+  font-size: 21px;
+}
+
+.form-control:focus {
+  border-color: #4f6d8c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(79, 109, 140, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(79, 109, 140, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(79, 109, 140, 0.6);
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-top: 3px;
+}
+
+.typekit-badge {
+  opacity: 0.3;
+}
+
+ul.unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+.margin-leader {
+  margin-top: 19px;
+}
+
+.margin-trailer {
+  margin-bottom: 19px;
+}
+
+.post-list {
+  text-align: center;
+}
+.post-list > li {
+  margin-bottom: 19px;
+}
+.post-list p {
+  margin-top: 9.5px;
+  color: #8c8e7d;
+  position: relative;
+}
+.post-list img {
+  margin-bottom: 19px;
+}
+.post-list img:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .web-list p {
+    text-align: right;
+    right: -22px;
+  }
+
+  .print-list p {
+    text-align: left;
+    left: -22px;
+  }
+}
+.post-card {
+  padding: 9.5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.post-card:hover {
+  background-color: rgba(79, 109, 140, 0.3);
+}
+
+.img-frame {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}

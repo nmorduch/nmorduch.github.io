@@ -1,0 +1,6 @@
+name: Naomi I. Morduch Toubman
+markdown: redcarpet
+pygments: true
+image_url: /static/images/
+permalink: /:year/:title/
+baseurl: /nmorduch
