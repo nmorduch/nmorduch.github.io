@@ -1,0 +1,98 @@
+why:
+- "I code detail-oriented mobile-first responsive designs using HTML5, CSS3 via Compass SASS, and Bootstrap, working with Django templates, Jekyll, and static HTML "
+- "I have experience in print and 3D design, giving me a broad range of ways of thinking about design."
+- "I keep up with current standards, and choose usability over minimalism."
+- "I work well in a team, and care about writing readable code to enable collaboration."
+
+jobs:
+- title: Worker-Owner
+  employer: <a href="http://littleweaverweb.com/">Little Weaver Web Collective</a>
+  date: January 2014 - present
+  details:
+  - "Design web applications, particularly branding and forms"
+  - "Collaboratively design CMS based websites"
+- employer: Freelance Design
+  date: 2012 - present
+  details:
+  - "Design websites, posters, and other materials for local events, personal projects, &c."
+  - "Use tools including Adobe Creative Suite, silkscreen, and letterpress"
+- title: UI/UX Assistant
+  employer: Oberlin College Office of Communications
+  location:
+    city: Oberlin
+    state: Ohio
+  date: 2011 - 2014
+  details:
+  - "Worked as part of a team to design, repair, and enhance front end of Oberlin websites, including homepage, News Center, and OnCampus."
+  - "Managed tasks within development team."
+  - "Wrote for the <a href='https://oncampus.oberlin.edu/webteam'>Oberlin Webteam Blog</a>."
+- title: Web Development Intern
+  employer: <a href="http://www.iperdesign.com/">iperdesign</a>
+  location:
+    city: Philadelphia
+    state: Pennsylvania
+  date: Fall 2012
+  details:
+  - "Coded pre-designed static websites and designed mobile versions, and changed branding on existing pages made in Dreamweaver."
+  - "Customized embedded Google Maps for iperdesign and client sites."
+- title: Woodworking Intern
+  employer: <a href="http://www.timlewisstudio.com/">Tim Lewis Studio</a>
+  location:
+    city: Philadelphia
+    state: Pennsylvania
+  date: Fall 2012
+  details:
+  - "Assisted in production of various pieces and installation"
+  - "Completed personal project: small collection of CD stands"
+- title: Student Designer
+  employer: Oberlin College Office of Student Communications
+  location:
+    city: Oberlin
+    state: Ohio
+  date: Fall 2012
+  details:
+  - "Designed banners for OnCampus site and digital sign machines around campus."
+- title: Apprentice
+  employer: "<a href='http://eliwhitney.org/''>Eli Whitney Museum & Workshop</a>"
+  location:
+    city: Hamden
+    state: Connecticut
+  date: 2005-2011
+  details:
+  - "Helped children and adults build small projects out of wood and electronics."
+  - "Designed and mocked up projects for week-long programs."
+
+education:
+- name: Oberlin College
+  location:
+    city: Oberlin
+    state: Ohio
+  date: 2010-2014
+  major: Mathematics
+  details: 
+  - name: Art Classes
+    list:
+    - Design as Social Process
+    - Color Theory (painting)
+    - Screen Process Printing
+    - With the Grain (woodworking)
+  - name: Campus Jobs
+    list:
+    - Admissions Tour Guide
+    - IT Help Desk
+  - name: Activities
+    list:
+    - Nothing But Treble (a capella group)
+    - Oberlin Student Cooperative Association
+    - Contra Dance and Swing Dance Clubs
+- name: <a href="https://home.oberlin.edu/">The Philadelphia Center</a>
+  location:
+    city: Philadelphia
+    state: Pennsylvania
+  date: Fall 2012
+  major: Study Away Program
+- name: Guilford High School
+  location:
+    city: Guilford
+    state: Connecticut
+  date: 2005-2010

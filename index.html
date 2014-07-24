@@ -9,13 +9,14 @@ layout: default
 				<li>
 					<div class="row">
 						<div class="col-xs-12 col-sm-4">
-							<p>{{ post.date | date: "%B %Y" }}</p>
+							<p>{{ post.date | date: "%Y" }}</p>
+							<p>{{ post.title }}</p>
 						</div>
 						<div class="col-xs-12 col-sm-8">
 							<a href="{{ post.link }}">
 								<div class="post-card">
 									{% for image in post.img %}
-										<img src="{{ site.baseurl }}/static/images/work/{{ image }}" class="img-responsive{% unless image == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
+										<img src="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image }}" alt="{{ post.title }}" class="img-responsive{% unless image == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
 									{% endfor %}
 								</div>
 							</a>
@@ -31,13 +32,14 @@ layout: default
 				<li>
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 col-sm-push-8">
-							<p>{{ post.date | date: "%B %Y" }}</p>
+							<p>{{ post.date | date: "%Y" }}</p>
+							<p>{{ post.title }}</p>
 						</div>
 						<div class="col-xs-12 col-sm-8 col-sm-pull-4">
-							<a href="{% if post.link %}{{ post.link }}{% else %}{{ site.baseurl }}/static/images/work/{{ post.img }}{% endif %}">
+							<a href="{% if post.link %}{{ post.link }}{% else %}{{ site.baseurl }}{{ site.imageurl }}/work/{{ post.img }}{% endif %}">
 								<div class="post-card">
 									{% for image in post.img %}
-										<img src="{{ site.baseurl }}/static/images/work/{{ image }}" class="img-responsive{% unless image == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
+										<img src="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image }}" alt="{{ post.title }}" class="img-responsive{% unless image == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
 									{% endfor %}
 								</div>
 							</a>

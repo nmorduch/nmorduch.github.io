@@ -7,22 +7,63 @@
 //// Base
 
 body
-	padding-bottom: 2*$line-height-computed
-	font-weight: 300
+	font-weight: 100
 
 header
 	background-color: $blue-light
 	text-align: center
 	padding: 44px 0
-	margin-bottom: 44px
 	border-bottom: 5px solid $brown
 	h1
 		margin: 0
 		color: $white
-	h3
+		font-size: $font-size-h2
+		@media (min-width:$screen-sm-min)
+			font-size: $font-size-h1
+	h3 
+		color: $blue-dark
+		font-weight: 100
 		margin: 0
-		margin-top: 11px
+		margin-top: .5*$line-height-computed
+		font-size: $font-size-h4
+		@media (min-width:$screen-sm-min)
+			font-size: $font-size-h3
+		> a
+			color: lighten($gray-brown,15%)
+			&:hover
+				text-decoration: none
+
+footer
+	background-color: $blue-dark
+	color: $blue-light
+	padding: 2*$line-height-computed 0
+	text-align: center
+	p
+		font-size: $font-size-h4
+		margin: 0
+	a
 		color: lighten($gray-brown,15%)
+		&:hover
+			text-decoration: none
+			color: $blue-light
+
+strong
+	font-weight: 500
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+	font-weight: 300
+
+h2, .h2
+	font-weight: 500
+
+ul
+	list-style: none
+	margin-left: 0
+	padding-left: 1em
+	text-indent: -1em
+li::before
+	content: "– "
+
 
 
 //// Bootstrap Adjustments
@@ -44,9 +85,6 @@ header
 input[type="radio"], input[type="checkbox"]
 	margin-top: 3px
 
-// .container
-// 	max-width: 750px
-
 
 //// Typekit Adjustment
 
@@ -57,8 +95,11 @@ input[type="radio"], input[type="checkbox"]
 //// Utilities
 
 ul.unstyled
-	list-style: none
+	margin-left: 0
 	padding-left: 0
+	text-indent: 0
+	> li::before
+		content: ""
 
 .margin-leader
 	margin-top: $line-height-computed
@@ -66,8 +107,40 @@ ul.unstyled
 .margin-trailer
 	margin-bottom: $line-height-computed
 
+.backstretched
+	background: cover
 
-//// Styles
+//// Layout
+
+.body
+	margin-top: 2*$line-height-computed
+	padding-bottom: 2*$line-height-computed
+
+.container-sm
+	max-width: 750px
+	padding: 2*$line-height-computed
+	background-color: lighten($body-bg,5%)
+	+border-radius($border-radius-small)
+	@media (min-width:$screen-sm-min)
+		margin-bottom: 2*$line-height-computed
+
+
+//// Footer
+
+	
+.footer-link
+	display: block
+	@media (min-width:$screen-sm-min)
+		display: inline
+	&::after
+		content: ""
+		@media (min-width:$screen-sm-min)
+			content: " // "
+	&:last-child::after
+		content: ""
+
+
+//// Portfolio
 
 .post-list
 	text-align: center
@@ -98,3 +171,25 @@ ul.unstyled
 .img-frame
 	border: 1px solid rgba(black,.06)
 
+
+//// Resume
+
+.headshot
+	height: 400px
+	width: 100%
+
+.resume h2
+	margin-top: 2*$line-height-computed
+	&:first-child
+		margin-top: 0
+
+.resume-item
+	margin-top: $line-height-computed
+	.date, h3, h4, h5, ul
+		margin-top: 0
+		margin-bottom: 4px
+	.date
+		text-transform: uppercase
+		font-weight: 500
+	h3
+		line-height: $font-size-h3
