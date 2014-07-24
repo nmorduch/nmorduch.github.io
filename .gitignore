@@ -1,2 +1,2 @@
 _site/
-static/.sasscache
+.sass-cache
