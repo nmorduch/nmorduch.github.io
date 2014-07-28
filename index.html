@@ -15,9 +15,11 @@ layout: default
 				<div class="col-xxs-12 col-xs-6 margin-trailer">
 					<h3 class="visible-xxs-inline-block margin-trailer">{{ post.title }}</h3>
 					{% for image in post.img %}
-						<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}" class="margin-trailer">
-							<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
-						</a>
+						<div class="margin-trailer">
+							<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
+								<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
+							</a>
+						</div>
 					{% endfor %}
 				</div>
 				<div class="col-xxs-12 col-xs-6 margin-trailer">
