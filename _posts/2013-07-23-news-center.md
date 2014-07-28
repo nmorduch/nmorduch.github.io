@@ -6,4 +6,4 @@ categories: web
 img: news-center.png
 ---
 
-A collaborative project with Harris Lapiroff and Violet Peña.
+Collaborative project with Harris Lapiroff and Violet Peña.
