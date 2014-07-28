@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 imageurl: /static/images
 permalink: /:year/:title/
-baseurl: /nmorduch
+baseurl: ""
