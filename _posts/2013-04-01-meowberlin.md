@@ -3,7 +3,8 @@ layout: portfolio_item
 title: Meowberlin
 link: http://oberlin.edu/kittens
 categories: web
-img: meowberlin.jpg
+img: 
+- large: meowberlin.jpg
 ---
 
 For April Fools Day, I changed all of the photographs on the Oberlin College homepage to be cats from the town of Oberlin.

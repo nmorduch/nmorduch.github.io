@@ -9,9 +9,9 @@ title: About
 
 	<div class="headshot"></div>
 
-	<div class="container container-sm">
+	<div class="container container-sm box">
 		<h2>About Me</h2>
-		<ul>
+		<ul class="dashed">
 			{% for reason in site.data.resume.why %}
 				<li>{{ reason }}</li>
 			{% endfor %}
@@ -25,7 +25,7 @@ title: About
 					{% if job.employer %}<h3>{{ job.employer }}</h3>{% endif %}
 					{% if job.title %}<h4>{{ job.title }}</h4>{% endif %}
 					{% if job.details %}
-						<ul>
+						<ul class="dashed">
 							{% for detail in job.details %}
 								<li>{{ detail }}</li>
 							{% endfor %}
@@ -44,7 +44,7 @@ title: About
 					<h3>{{ school.name }}</h3>
 					{% if school.major %}<h4>{{ school.major }}</h4>{% endif %}
 					{% if school.details %}
-						<ul>
+						<ul class="dashed">
 							{% for detail in school.details %}
 								<li>
 									<strong>{{ detail.name }}: </strong>
@@ -63,8 +63,8 @@ title: About
 
 	{% include footer.html %}
 
-	<script src="{{ site.baseurl }}/static/javascripts/modernizr.2.7.1.js" type="text/javascript" charset="utf-8"></script>
-	<script src="{{ site.baseurl }}/static/javascripts/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	{% include javascripts.html %}
+
 	<script src="{{ site.baseurl }}/static/javascripts/jquery.backstretch.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="{{ site.baseurl }}/static/javascripts/app.js" type="text/javascript" charset="utf-8"></script>
 

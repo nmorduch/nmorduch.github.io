@@ -56,16 +56,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 h2, .h2
 	font-weight: 500
 
-ul
-	list-style: none
-	margin-left: 0
-	padding-left: 1em
-	text-indent: -1em
-li::before
-	content: "– "
-
-
-
 //// Bootstrap Adjustments
 
 .navbar
@@ -86,6 +76,20 @@ input[type="radio"], input[type="checkbox"]
 	margin-top: 3px
 
 
+.btn-custom
+	color: darken($gray-brown,20%)
+	background-color: rgba($gray-brown,.4)
+	border-color: transparent
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open > .btn-custom.dropdown-toggle
+	color: $body-bg
+	background-color: $gray-brown
+	border-color: transparent
+
+.btn-custom:active, .btn-custom.active, .open > .btn-custom.dropdown-toggle
+	background-image: none
+
+
 //// Typekit Adjustment
 
 .typekit-badge
@@ -95,11 +99,20 @@ input[type="radio"], input[type="checkbox"]
 //// Utilities
 
 ul.unstyled
-	margin-left: 0
 	padding-left: 0
-	text-indent: 0
+	list-style: none
 	> li::before
 		content: ""
+
+ul.dashed
+	@extend ul.unstyled
+	margin-left: 0
+	padding-left: 1em
+	text-indent: -1em
+	> li::before
+		content: "– "
+
+
 
 .margin-leader
 	margin-top: $line-height-computed
@@ -116,13 +129,11 @@ ul.unstyled
 	margin-top: 2*$line-height-computed
 	padding-bottom: 2*$line-height-computed
 
+.container-md
+	max-width: 970px
+
 .container-sm
 	max-width: 750px
-	padding: 2*$line-height-computed
-	background-color: lighten($body-bg,5%)
-	+border-radius($border-radius-small)
-	@media (min-width:$screen-sm-min)
-		margin-bottom: 2*$line-height-computed
 
 
 //// Footer
@@ -142,41 +153,38 @@ ul.unstyled
 
 //// Portfolio
 
-.post-list
+.portfolio-nav
+	margin-bottom: 2*$line-height-computed
 	text-align: center
 	> li
-		margin-bottom: $line-height-computed
+		display: inline-block
+		float: none
+
+.post-list
+	> li
+		margin-bottom: 2*$line-height-computed
+	h3
+		margin-top: 0
 	img
 		margin-bottom: $line-height-computed
 		&:last-child
 			margin-bottom: 0
-.post-data > p
-	margin-top: .5*$line-height-computed
-	position: relative
-	@media (min-width:$screen-sm-min)
-		.col-left &
-			right: -.5*$line-height-computed
-		.col-right &
-			left: -.5*$line-height-computed
-
-@media (min-width:$screen-sm-min)
-	.col-left
-		text-align: right
-	.col-right
-		text-align: left
 
 .post-card
-	padding: .5*$line-height-computed
-	margin: 0 -.5*$line-height-computed
-	+border-radius($border-radius-small)
-	&:hover
-		background-color: rgba($blue-light,.3)
+	margin-bottom: $line-height-computed
 
 .img-frame
 	border: 1px solid rgba(black,.06)
 
 
-//// Resume
+//// About
+
+.box
+	padding: 2*$line-height-computed
+	background-color: lighten($body-bg,5%)
+	+border-radius($border-radius-small)
+	@media (min-width:$screen-sm-min)
+		margin-bottom: 2*$line-height-computed
 
 .headshot
 	height: 400px
