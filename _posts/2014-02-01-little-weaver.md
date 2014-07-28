@@ -6,4 +6,4 @@ categories: web
 img: lw.png
 ---
 
-Two friends and I recently started a small web development collective.
+Jekyll site for a small web development collective consisting of Harris Lapiroff, Stephen Burrows, and me.

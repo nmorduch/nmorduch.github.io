@@ -6,4 +6,4 @@ categories: web
 img: osteel.png
 ---
 
-I redesigned the website for Oberlin Steel, a steel drum band. It is built on Jekyll, using Bootstrap and Compass Sass. The code can be seen [on GitHub](https://github.com/nmorduch/osteel/).
+Jekyll site for a student steel drum band. The code can be seen [on GitHub](https://github.com/nmorduch/osteel/).

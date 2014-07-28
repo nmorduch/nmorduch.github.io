@@ -5,4 +5,4 @@ categories: print
 img: nbt-2012-05.gif
 ---
 
-A simple poster for my a capella group.
+Poster made in InDesign.
