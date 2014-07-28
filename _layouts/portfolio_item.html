@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="row">
+	<div class="col-sm-8 col-sm-offset-2">
+		<h1>{{ page.title }}</h1>
+
+		{% for image in page.img %}
+			<img src="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image }}" class="img-responsive margin-trailer{% unless image == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
+		{% endfor %}
+
+		{{ content }}
+
+	</div>
+</div>

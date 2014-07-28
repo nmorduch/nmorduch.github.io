@@ -1,0 +1,6 @@
+name: "Naomi I. Morduch&nbsp;Toubman"
+markdown: redcarpet
+pygments: true
+imageurl: /static/images
+permalink: /:year/:title/
+baseurl: /nmorduch

@@ -1,0 +1,220 @@
+@import compass/css3/border-radius
+@import compass/css3/box-shadow
+
+@import bootstrap/variables
+
+$screen-xxs-max: 480px
+
+
+//// Base
+
+body
+	font-weight: 100
+
+header
+	background-color: $blue-light
+	text-align: center
+	padding: 44px 0
+	border-bottom: 5px solid $brown
+	h1
+		margin: 0
+		color: $white
+		font-size: $font-size-h2
+		@media (min-width:$screen-sm-min)
+			font-size: $font-size-h1
+		@media (max-width:$screen-xxs-max)
+			font-size: $font-size-h3
+	h3 
+		color: $blue-dark
+		font-weight: 100
+		margin: 0
+		margin-top: .5*$line-height-computed
+		font-size: $font-size-h4
+		@media (min-width:$screen-sm-min)
+			font-size: $font-size-h3
+		> a
+			color: lighten($gray-brown,15%)
+			&:hover
+				text-decoration: none
+
+footer
+	background-color: $blue-dark
+	color: $blue-light
+	padding: 2*$line-height-computed 0
+	text-align: center
+	p
+		font-size: $font-size-h4
+		margin: 0
+	a
+		color: lighten($gray-brown,15%)
+		&:hover
+			text-decoration: none
+			color: $blue-light
+
+strong
+	font-weight: 500
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+	font-weight: 300
+
+h2, .h2
+	font-weight: 500
+
+//// Bootstrap Adjustments
+
+.navbar
+	+border-radius(0)
+
+.panel-body
+	> h1:first-child, > h2:first-child, > h3:first-child, > h4:first-child, > h5:first-child, > h6:first-child
+		margin-top: 0
+
+.panel-title
+	font-size: ceil($font-size-base * 1.5)
+
+.form-control:focus
+	border-color: $brand-primary
+	+box-shadow(inset 0 1px 1px rgba(black, 0.075), 0 0 8px rgba($brand-primary,0.6))
+
+input[type="radio"], input[type="checkbox"]
+	margin-top: 3px
+
+
+.btn-custom
+	color: darken($gray-brown,20%)
+	background-color: rgba($gray-brown,.4)
+	border-color: transparent
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open > .btn-custom.dropdown-toggle
+	color: $body-bg
+	background-color: $gray-brown
+	border-color: transparent
+
+.btn-custom:active, .btn-custom.active, .open > .btn-custom.dropdown-toggle
+	background-image: none
+
+@media (max-width: $screen-xxs-max)
+	.portfolio-nav .h3
+		font-size: $font-size-h4
+	.col-xxs-12
+		width: 100% !important
+		left: 0
+		right: 0
+
+
+//// Typekit Adjustment
+
+.typekit-badge
+	opacity: .3
+
+
+//// Utilities
+
+ul.unstyled
+	padding-left: 0
+	list-style: none
+	> li::before
+		content: ""
+
+ul.dashed
+	@extend ul.unstyled
+	margin-left: 0
+	padding-left: 1em
+	text-indent: -1em
+	> li::before
+		content: "– "
+
+
+
+.margin-leader
+	margin-top: $line-height-computed
+
+.margin-trailer
+	margin-bottom: $line-height-computed
+
+.backstretched
+	background: cover
+
+//// Layout
+
+.body
+	margin-top: 2*$line-height-computed
+	padding-bottom: 2*$line-height-computed
+
+.container-md
+	max-width: 970px
+
+.container-sm
+	max-width: 750px
+
+
+//// Footer
+
+	
+.footer-link
+	display: block
+	@media (min-width:$screen-sm-min)
+		display: inline
+	&::after
+		content: ""
+		@media (min-width:$screen-sm-min)
+			content: " // "
+	&:last-child::after
+		content: ""
+
+
+//// Portfolio
+
+.portfolio-nav
+	margin-bottom: 2*$line-height-computed
+	text-align: center
+	> li
+		display: inline-block
+		float: none
+
+.post-list
+	> li
+		margin-bottom: 2*$line-height-computed
+	h3
+		margin-top: 0
+	img
+		margin-bottom: $line-height-computed
+		&:last-child
+			margin-bottom: 0
+
+.img-frame
+	border: 1px solid rgba(black,.06)
+
+
+//// About
+
+.box
+	padding: 2*$line-height-computed
+	background-color: lighten($body-bg,5%)
+	+border-radius($border-radius-small)
+	@media (min-width:$screen-sm-min)
+		margin-bottom: 2*$line-height-computed
+
+.headshot
+	height: 400px
+	width: 100%
+
+.resume h2
+	margin-top: 2*$line-height-computed
+	&:first-child
+		margin-top: 0
+
+.resume-item
+	margin-top: $line-height-computed
+	.date, h3, h4, h5, ul
+		margin-top: 0
+		margin-bottom: 4px
+	.date
+		text-transform: uppercase
+		font-weight: 500
+	h3
+		line-height: $font-size-h3
+	.li-comma::after
+		content: ", "
+	.li-comma:last-child::after
+		content: ""
