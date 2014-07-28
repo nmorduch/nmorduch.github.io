@@ -199,10 +199,6 @@ ul.dashed > li::before {
   margin-bottom: 0;
 }
 
-.post-card {
-  margin-bottom: 22px;
-}
-
 .img-frame {
   border: 1px solid rgba(0, 0, 0, 0.06);
 }

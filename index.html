@@ -12,22 +12,20 @@ layout: default
 	{% for post in site.posts %}
 		<li class="{{ post.categories }} both tab-pane active fade in">
 			<div class="row">
-				<div class="col-xs-6">
-					{% for image in post.img %}
-						<div class="post-card">
-							<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
-								<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
-							</a>
-						</div>
-					{% endfor %}
-				</div>
-				<div class="col-xs-6">
+				<div class="col-xs-12 col-sm-6 col-sm-push-6 margin-trailer">
 					<h3>{{ post.title }}</h3>
 					<p class="text-muted">{{ post.date | date: "%B %Y" }}</p>
 					{{ post.content }}
 					{% if post.categories contains 'web' %}
 						<a href="{{ post.link }}" class="btn btn-custom">View Site</a>
 					{% endif %}
+				</div>
+				<div class="col-xs-12 col-sm-6 col-sm-pull-6 margin-trailer">
+					{% for image in post.img %}
+						<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}" class="margin-trailer">
+							<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
+						</a>
+					{% endfor %}
 				</div>
 			</div>
 		</li>
