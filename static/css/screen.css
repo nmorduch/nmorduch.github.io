@@ -178,11 +178,6 @@ ul.unstyled > li::before {
 .post-list > li {
   margin-bottom: 22px;
 }
-.post-list p {
-  margin-top: 11px;
-  color: #8c8e7d;
-  position: relative;
-}
 .post-list img {
   margin-bottom: 22px;
 }
@@ -190,19 +185,31 @@ ul.unstyled > li::before {
   margin-bottom: 0;
 }
 
+.post-data > p {
+  margin-top: 11px;
+  position: relative;
+}
 @media (min-width: 768px) {
-  .web-list p {
+  .col-left .post-data > p {
+    right: -11px;
+  }
+  .col-right .post-data > p {
+    left: -11px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-left {
     text-align: right;
-    right: -22px;
   }
 
-  .print-list p {
+  .col-right {
     text-align: left;
-    left: -22px;
   }
 }
 .post-card {
   padding: 11px;
+  margin: 0 -11px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;

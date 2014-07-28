@@ -1,0 +1,20 @@
+<li class="col-{{ include.side }}">
+	<div class="row">
+		<div class="col-xs-12 col-sm-4{% if include.side == "right" %} col-sm-push-8{% endif %} post-data">
+			<p class="text-muted">{{ post.date | date: "%Y" }}</p>
+			<p>{{ post.title }}</p>
+		</div>
+		<div class="col-xs-12 col-sm-8{% if include.side == "right" %} col-sm-pull-4{% endif %}">
+			<a href="{{ post.link }}">
+				<div class="post-card">
+					{% for image in post.img %}
+						<img src="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image }}" alt="{{ post.title }}" class="img-responsive{% unless image == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
+					{% endfor %}
+				</div>
+			</a>
+			<div class="content">
+				{{ post.content }}
+			</div>
+		</div>
+	</div>
+</li>

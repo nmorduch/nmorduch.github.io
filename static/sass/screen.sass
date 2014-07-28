@@ -146,24 +146,28 @@ ul.unstyled
 	text-align: center
 	> li
 		margin-bottom: $line-height-computed
-	p
-		margin-top: .5*$line-height-computed
-		color: $gray-brown
-		position: relative
 	img
 		margin-bottom: $line-height-computed
 		&:last-child
 			margin-bottom: 0
+.post-data > p
+	margin-top: .5*$line-height-computed
+	position: relative
+	@media (min-width:$screen-sm-min)
+		.col-left &
+			right: -.5*$line-height-computed
+		.col-right &
+			left: -.5*$line-height-computed
+
 @media (min-width:$screen-sm-min)
-	.web-list p
+	.col-left
 		text-align: right
-		right: -22px
-	.print-list p
+	.col-right
 		text-align: left
-		left: -22px
 
 .post-card
 	padding: .5*$line-height-computed
+	margin: 0 -.5*$line-height-computed
 	+border-radius($border-radius-small)
 	&:hover
 		background-color: rgba($blue-light,.3)
