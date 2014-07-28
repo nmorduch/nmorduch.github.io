@@ -12,7 +12,7 @@ layout: default
 	{% for post in site.posts %}
 		<li class="{{ post.categories }} both tab-pane active fade in">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-sm-push-6 margin-trailer">
+				<div class="col-xxs-12 col-xs-6 col-xs-push-6 margin-trailer">
 					<h3>{{ post.title }}</h3>
 					<p class="text-muted">{{ post.date | date: "%B %Y" }}</p>
 					{{ post.content }}
@@ -20,7 +20,7 @@ layout: default
 						<a href="{{ post.link }}" class="btn btn-custom">View Site</a>
 					{% endif %}
 				</div>
-				<div class="col-xs-12 col-sm-6 col-sm-pull-6 margin-trailer">
+				<div class="col-xxs-12 col-xs-6 col-xs-pull-6 margin-trailer">
 					{% for image in post.img %}
 						<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}" class="margin-trailer">
 							<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
