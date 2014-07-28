@@ -12,20 +12,21 @@ layout: default
 	{% for post in site.posts %}
 		<li class="{{ post.categories }} both tab-pane active fade in">
 			<div class="row">
-				<div class="col-xxs-12 col-xs-6 col-xs-push-6 margin-trailer">
-					<h3>{{ post.title }}</h3>
-					<p class="text-muted">{{ post.date | date: "%B %Y" }}</p>
-					{{ post.content }}
-					{% if post.categories contains 'web' %}
-						<a href="{{ post.link }}" class="btn btn-custom">View Site</a>
-					{% endif %}
-				</div>
-				<div class="col-xxs-12 col-xs-6 col-xs-pull-6 margin-trailer">
+				<div class="col-xxs-12 col-xs-6 margin-trailer">
+					<h3 class="visible-xxs-inline-block margin-trailer">{{ post.title }}</h3>
 					{% for image in post.img %}
 						<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}" class="margin-trailer">
 							<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
 						</a>
 					{% endfor %}
+				</div>
+				<div class="col-xxs-12 col-xs-6 margin-trailer">
+					<h3 class="hidden-xxs">{{ post.title }}</h3>
+					<p class="text-muted">{{ post.date | date: "%B %Y" }}</p>
+					{{ post.content }}
+					{% if post.categories contains 'web' %}
+						<a href="{{ post.link }}" class="btn btn-custom">View Site</a>
+					{% endif %}
 				</div>
 			</div>
 		</li>
