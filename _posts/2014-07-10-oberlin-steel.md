@@ -1,7 +1,7 @@
 ---
 layout: portfolio_item
 title: "In Progress: Oberlin&nbsp;Steel"
-link: http://nmorduch.github.io/osteel
+link: http://oberlinsteel.com
 categories: web
 img: 
 - large: osteel.png
