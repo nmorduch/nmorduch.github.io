@@ -2,9 +2,9 @@
 layout: head
 ---
 
-<body>
+<body class="backstretched" data-backstretch-image="{{ site.baseurl }}{{ site.imageurl }}/wall.jpg">
 	{% include header.html %}
-	<div class="container container-sm body">
+	<div id="body" class="container container-sm">
 		{{ content }}
 	</div>
 	{% include footer.html %}
@@ -12,5 +12,4 @@ layout: head
 	{% include javascripts.html %}
 
 	<script src="{{ site.baseurl }}/static/javascripts/bootstrap/tab.js" type="text/javascript" charset="utf-8"></script>
-
 </body>
