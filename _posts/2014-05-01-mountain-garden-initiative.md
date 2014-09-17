@@ -1,6 +1,6 @@
 ---
 layout: portfolio_item
-title: "In Progress: Mountain Garden Initiative"
+title: Mountain Garden Initiative
 link: "http://mountaingardeninitiative.com"
 categories: web
 img: 
