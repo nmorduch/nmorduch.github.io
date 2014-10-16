@@ -1,0 +1,51 @@
+body
+	font-weight: $body-font-weight
+
+strong
+	font-weight: $bold-font-weight
+
+h1, .h2, h2, .h2
+	font-weight: $bold-font-weight
+
+//// Typekit Adjustment
+
+.typekit-badge
+	opacity: .3
+
+
+//// Utilities
+
+ul.unstyled
+	padding-left: 0
+	list-style: none
+	> li::before
+		content: ""
+
+ul.dashed
+	@extend ul.unstyled
+	margin-left: 0
+	padding-left: 1em
+	text-indent: -1em
+	> li::before
+		content: "– "
+
+.img-frame
+	border: 1px solid rgba(black,.06)
+
+.margin-leader
+	margin-top: $line-height-computed
+
+.margin-trailer
+	margin-bottom: $line-height-computed
+
+.backstretched
+	background: cover
+
+//// Layout
+
+#body
+	background-color: rgba(darken($white,2%),.8)
+	padding: $line-height-computed
+	@media (min-width:$screen-sm-min)
+		background-color: darken($white,2%)
+		padding: 2*$line-height-computed

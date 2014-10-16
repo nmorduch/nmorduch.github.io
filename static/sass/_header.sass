@@ -1,0 +1,26 @@
+header
+	background-color: $blue-light
+	text-align: center
+	padding: 44px 0
+	border-bottom: 5px solid $brown
+	h1
+		margin: 0
+		color: $white
+		font-size: $font-size-h2
+		font-weight: $headings-font-weight
+		@media (min-width:$screen-sm-min)
+			font-size: $font-size-h1
+		@media (max-width:$screen-xxs-max)
+			font-size: $font-size-h3
+	h3 
+		color: $blue-dark
+		font-weight: $body-font-weight
+		margin: 0
+		margin-top: .5*$line-height-computed
+		font-size: $font-size-h4
+		@media (min-width:$screen-sm-min)
+			font-size: $font-size-h3
+		> a
+			color: lighten($gray-brown,15%)
+			&:hover
+				text-decoration: none

@@ -1,0 +1,24 @@
+footer
+	background-color: $blue-dark
+	color: $blue-light
+	padding: 2*$line-height-computed 0
+	text-align: center
+	p
+		font-size: $font-size-h4
+		margin: 0
+	a
+		color: lighten($gray-brown,15%)
+		&:hover
+			text-decoration: none
+			color: $blue-light
+
+.footer-link
+	display: block
+	@media (min-width:$screen-sm-min)
+		display: inline
+	&::after
+		content: ""
+		@media (min-width:$screen-sm-min)
+			content: " // "
+	&:last-child::after
+		content: ""

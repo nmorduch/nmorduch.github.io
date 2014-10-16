@@ -1,232 +1,64 @@
 @import compass/css3/border-radius
 @import compass/css3/box-shadow
 
+@import variables
+
+// Core variables and mixins
 @import bootstrap/variables
+@import bootstrap/mixins
 
-$screen-xxs-max: 480px
+// Reset and dependencies
+@import bootstrap/normalize
+@import bootstrap/print
+@import bootstrap/glyphicons
 
+// Core CSS
+@import bootstrap/scaffolding
+@import bootstrap/type
+@import bootstrap/code
+@import bootstrap/grid
+@import bootstrap/tables
+@import bootstrap/forms
+@import bootstrap/buttons
 
-//// Base
+// Components
+@import bootstrap/component-animations
+@import bootstrap/dropdowns
+@import bootstrap/button-groups
+@import bootstrap/input-groups
+@import bootstrap/navs
+@import bootstrap/navbar
+@import bootstrap/breadcrumbs
+@import bootstrap/pagination
+@import bootstrap/pager
+@import bootstrap/labels
+@import bootstrap/badges
+@import bootstrap/jumbotron
+@import bootstrap/thumbnails
+@import bootstrap/alerts
+@import bootstrap/progress-bars
+@import bootstrap/media
+@import bootstrap/list-group
+@import bootstrap/panels
+@import bootstrap/responsive-embed
+@import bootstrap/wells
+@import bootstrap/close
 
-body
-	font-weight: 100
+// Components w/ JavaScript
+@import bootstrap/modals
+@import bootstrap/tooltip
+@import bootstrap/popovers
+@import bootstrap/carousel
 
-header
-	background-color: $blue-light
-	text-align: center
-	padding: 44px 0
-	border-bottom: 5px solid $brown
-	h1
-		margin: 0
-		color: $white
-		font-size: $font-size-h2
-		@media (min-width:$screen-sm-min)
-			font-size: $font-size-h1
-		@media (max-width:$screen-xxs-max)
-			font-size: $font-size-h3
-	h3 
-		color: $blue-dark
-		font-weight: 100
-		margin: 0
-		margin-top: .5*$line-height-computed
-		font-size: $font-size-h4
-		@media (min-width:$screen-sm-min)
-			font-size: $font-size-h3
-		> a
-			color: lighten($gray-brown,15%)
-			&:hover
-				text-decoration: none
+// Utility classes
+@import bootstrap/utilities
+@import bootstrap/responsive-utilities
 
-footer
-	background-color: $blue-dark
-	color: $blue-light
-	padding: 2*$line-height-computed 0
-	text-align: center
-	p
-		font-size: $font-size-h4
-		margin: 0
-	a
-		color: lighten($gray-brown,15%)
-		&:hover
-			text-decoration: none
-			color: $blue-light
-
-strong
-	font-weight: 500
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
-	font-weight: 300
-
-h2, .h2
-	font-weight: 500
-
-//// Bootstrap Adjustments
-
-.navbar
-	+border-radius(0)
-
-.panel-body
-	> h1:first-child, > h2:first-child, > h3:first-child, > h4:first-child, > h5:first-child, > h6:first-child
-		margin-top: 0
-
-.panel-title
-	font-size: ceil($font-size-base * 1.5)
-
-.form-control:focus
-	border-color: $brand-primary
-	+box-shadow(inset 0 1px 1px rgba(black, 0.075), 0 0 8px rgba($brand-primary,0.6))
-
-input[type="radio"], input[type="checkbox"]
-	margin-top: 3px
+@import bootstrap_adjust
+@import base
+@import header
+@import footer
+@import portfolio
+@import resume
 
 
-.btn-custom
-	color: darken($gray-brown,20%)
-	background-color: rgba($gray-brown,.4)
-	border-color: transparent
-
-.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open > .btn-custom.dropdown-toggle
-	color: $body-bg
-	background-color: $gray-brown
-	border-color: transparent
-
-.btn-custom:active, .btn-custom.active, .open > .btn-custom.dropdown-toggle
-	background-image: none
-
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
-	color: $body-bg
-
-.visible-xxs-inline-block
-	display: none
-
-@media (max-width: $screen-xxs-max)
-	.portfolio-nav .h3
-		font-size: $font-size-h4
-	.col-xxs-12
-		width: 100% !important
-		left: 0
-		right: 0
-	.hidden-xxs
-		display: none
-	.visible-xxs-inline-block
-		display: inline-block !important
-
-
-
-//// Typekit Adjustment
-
-.typekit-badge
-	opacity: .3
-
-
-//// Utilities
-
-ul.unstyled
-	padding-left: 0
-	list-style: none
-	> li::before
-		content: ""
-
-ul.dashed
-	@extend ul.unstyled
-	margin-left: 0
-	padding-left: 1em
-	text-indent: -1em
-	> li::before
-		content: "– "
-
-
-
-.margin-leader
-	margin-top: $line-height-computed
-
-.margin-trailer
-	margin-bottom: $line-height-computed
-
-.backstretched
-	background: cover
-
-//// Layout
-
-#body
-	background-color: rgba(darken($white,2%),.8)
-	padding: $line-height-computed
-	@media (min-width:$screen-sm-min)
-		background-color: darken($white,2%)
-		padding: 2*$line-height-computed
-
-
-.container-sm
-	max-width: 2*(2*$line-height-computed)+750px
-
-
-//// Footer
-
-	
-.footer-link
-	display: block
-	@media (min-width:$screen-sm-min)
-		display: inline
-	&::after
-		content: ""
-		@media (min-width:$screen-sm-min)
-			content: " // "
-	&:last-child::after
-		content: ""
-
-
-//// Portfolio
-
-.portfolio-nav
-	margin-bottom: 2*$line-height-computed
-	text-align: center
-	> li
-		display: inline-block
-		float: none
-
-.post-list
-	> li
-		margin-bottom: 2*$line-height-computed
-	h3
-		margin-top: 0
-	img
-		margin-bottom: $line-height-computed
-		&:last-child
-			margin-bottom: 0
-
-.img-frame
-	border: 1px solid rgba(black,.06)
-
-
-//// About
-
-.box
-	padding: $line-height-computed 2*$line-height-computed (2*$line-height-computed - 6) 2*$line-height-computed
-	background-color: $white
-	+border-radius($border-radius-small)
-	@media (min-width:$screen-sm-min)
-		margin-bottom: 2*$line-height-computed
-
-.headshot
-	height: 400px
-	width: 100%
-
-.resume h2
-	margin-top: 2*$line-height-computed
-	&:first-child
-		margin-top: 0
-
-.resume-item
-	margin-top: $line-height-computed
-	.date, h3, h4, h5, ul
-		margin-top: 0
-		margin-bottom: 6px
-	.date
-		text-transform: uppercase
-		font-weight: 500
-	h3
-		line-height: $font-size-h3
-	.li-comma::after
-		content: ", "
-	.li-comma:last-child::after
-		content: ""
