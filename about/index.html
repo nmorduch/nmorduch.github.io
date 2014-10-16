@@ -7,16 +7,20 @@ title: About
 
 	{% include header.html %}
 
-	<div class="container container-sm box headshot">
+	<div class="container container-sm box resume">
 		<h2>About Me</h2>
 		<div class="row">
 			{% for reason in site.data.resume.why %}
-				<div class="col-sm-4">
+				{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+				{% cycle '<div class="col-sm-4">','' %}
 					<div class="textbox">
 						{{ reason|markdownify }}
 					</div>
-				</div>
+				{% cycle '','</div>' %}
 			{% endfor %}
+			{% if thecycle == 'odd' %}
+				</div>
+			{% endif %}
 		</div>
 
 		<h2>Experience</h2>

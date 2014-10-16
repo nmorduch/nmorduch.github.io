@@ -43,9 +43,23 @@ ul.dashed
 
 //// Layout
 
-#body
-	background-color: rgba(darken($white,2%),.8)
+.box
 	padding: $line-height-computed
+	background-color: rgba(darken($white,2%),.8)
+	+border-radius($border-radius-small)
 	@media (min-width:$screen-sm-min)
-		background-color: darken($white,2%)
+		margin-top: 2*$line-height-computed
+		margin-bottom: 2*$line-height-computed
 		padding: 2*$line-height-computed
+		background-color: darken($white,2%)
+
+.textbox
+	margin-bottom: $line-height-computed
+	padding: .5*$line-height-computed
+	background-color: darken($white,5%)
+	+border-radius($border-radius-small)
+	@media (min-width:$screen-sm-min)
+		&:last-child
+			margin-bottom: 0
+	> p:last-child
+		margin-bottom: 0
