@@ -10,10 +10,15 @@ title: About
 	<div class="container container-sm box headshot">
 		<h2>About Me</h2>
 		<ul class="dashed">
+		<div class="row">
 			{% for reason in site.data.resume.why %}
-				<li>{{ reason }}</li>
+				<div class="col-sm-4">
+					<div class="textbox">
+						{{ reason|markdownify }}
+					</div>
+				</div>
 			{% endfor %}
-		</ul>
+		</div>
 
 		<h2>Experience</h2>
 		<ul class="unstyled">
