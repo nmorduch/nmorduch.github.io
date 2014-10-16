@@ -1,5 +1,6 @@
 (function (win, body, $, undefined) {
 	var $win = $(win);
+
 	// backstretch it up
 	$('[data-backstretch-image]').each(function(){
 		var $this = $(this),
@@ -13,4 +14,13 @@
 			$win.on('load', function () { $this.data('backstretch').resize(); });
 		}
 	});
+
+	// leave space for headshot on about page
+	$win.on('ready resize', function () {
+		var height = $win.outerHeight() - 253;
+		console.log("[height] "+height);
+		$('.resume').css('margin-top',height);
+	});
+
+
 }(this, document.body, window.jQuery));
