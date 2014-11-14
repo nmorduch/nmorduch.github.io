@@ -16,7 +16,11 @@ layout: default
 					<h3 class="visible-xxs-inline-block margin-trailer">{{ post.title }}</h3>
 					{% for image in post.img %}
 						<div class="margin-trailer">
-							<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
+							{% if post.categories contains 'web' %}
+								<a href="{{ post.link }}">
+							{% else %}
+								<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
+							{% endif %}
 								<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
 							</a>
 						</div>
