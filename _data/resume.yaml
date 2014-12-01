@@ -11,12 +11,12 @@ jobs:
   employer: <a href="http://littleweaverweb.com/">Little Weaver Web Collective</a>
   date: January 2014 - present
   details:
-  - "Design web applications, particularly branding and forms"
-  - "Collaboratively design CMS based websites"
+  - "Front end design and development, primarily in Django templates and in theming for various services"
+  - "Team and project management and bookkeeping"
 - employer: Freelance Design
   date: 2012 - present
   details:
-  - "Design websites, posters, and other materials for local events, personal projects, &c."
+  - "Design websites, posters, and other materials for local events and other clients"
   - "Use tools including Adobe Creative Suite, silkscreen, and letterpress"
 - title: UI/UX Assistant
   employer: Oberlin College Office of Communications
@@ -25,9 +25,9 @@ jobs:
     state: Ohio
   date: 2011 - 2014
   details:
-  - "Worked as part of a team to design, repair, and enhance front end of Oberlin websites, including homepage, News Center, and OnCampus."
-  - "Managed tasks within development team."
-  - "Wrote for the <a href='https://oncampus.oberlin.edu/webteam'>Oberlin Webteam Blog</a>."
+  - "Worked as part of a team to design, repair, and enhance front end of Oberlin websites, including homepage, News Center, and OnCampus"
+  - "Managed tasks within development team"
+  - "Wrote for the <a href='https://oncampus.oberlin.edu/webteam'>Oberlin Webteam Blog</a>"
 - title: Web Development Intern
   employer: <a href="http://www.iperdesign.com/">iperdesign</a>
   location:
@@ -35,8 +35,8 @@ jobs:
     state: Pennsylvania
   date: Fall 2012
   details:
-  - "Coded pre-designed static websites and designed mobile versions, and changed branding on existing pages made in Dreamweaver."
-  - "Customized embedded Google Maps for iperdesign and client sites."
+  - "Front end development and responsive design"
+  - "Customized embedded Google Maps for iperdesign and client sites"
 - title: Woodworking Intern
   employer: <a href="http://www.timlewisstudio.com/">Tim Lewis Studio</a>
   location:
@@ -53,7 +53,7 @@ jobs:
     state: Ohio
   date: Fall 2012
   details:
-  - "Designed banners for OnCampus site and digital sign machines around campus."
+  - "Designed banners for OnCampus site and digital sign machines around campus"
 - title: Apprentice
   employer: "<a href='http://eliwhitney.org/''>Eli Whitney Museum & Workshop</a>"
   location:
@@ -61,8 +61,8 @@ jobs:
     state: Connecticut
   date: 2005-2011
   details:
-  - "Helped children and adults build small projects out of wood and electronics."
-  - "Designed and mocked up projects for week-long programs."
+  - "Helped children and adults build small projects out of wood and electronics"
+  - "Designed and mocked up projects for week-long programs"
 
 education:
 - name: Oberlin College
