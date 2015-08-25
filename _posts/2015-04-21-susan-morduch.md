@@ -9,4 +9,4 @@ img:
 published: true
 ---
 
-Jekyll site for a phychotherapy practice, including design of header image.
+Jekyll site for a psychotherapy practice, including design of header image.
