@@ -11,8 +11,9 @@ jobs:
   employer: <a href="http://littleweaverweb.com/">Little Weaver Web Collective</a>
   date: January 2014 - present
   details:
-  - "Front end design and development, primarily in Django templates and in theming for various services"
-  - "Team and project management and bookkeeping"
+  - "Used experience in design and coding, freelance work, and student groups to found company of web developers around the USA and build from 3 to 6 people in 2 years"
+  - "Managed clients, coworkers, company email account, and bookkeeping"
+  - "Pruned role to core work designing and producing web pages and print materials"
 - employer: Freelance Design
   date: 2012 - present
   details:
@@ -25,6 +26,7 @@ jobs:
     state: Ohio
   date: 2011 - 2014
   details:
+  - "Learned web development and in under 2 years became integral part of web team"
   - "Worked as part of a team to design, repair, and enhance front end of Oberlin websites, including homepage, News Center, and OnCampus"
   - "Managed tasks within development team"
   - "Wrote for the <a href='https://oncampus.oberlin.edu/webteam'>Oberlin Webteam Blog</a>"
@@ -44,7 +46,7 @@ jobs:
     state: Pennsylvania
   date: Fall 2012
   details:
-  - "Assisted in production of various pieces and installation"
+  - "Assisted in production and installation of various pieces"
   - "Completed personal project: small collection of <a href='https://www.dropbox.com/s/3h8mkpgwdfmhagu/2012.11.cdstand-11.jpg'>CD stands</a>"
 - title: Student Designer
   employer: Oberlin College Office of Student Communications
@@ -61,8 +63,8 @@ jobs:
     state: Connecticut
   date: 2005-2011
   details:
-  - "Helped children and adults build small projects out of wood and electronics"
-  - "Designed and mocked up projects for week-long programs"
+  - "Taught people of all ages how to work with wood and electronics"
+  - "Used hand and power tools for woodworking, including designing projects for week-long programs"
 
 education:
 - name: Oberlin College
@@ -71,7 +73,7 @@ education:
     state: Ohio
   date: 2010-2014
   major: Mathematics
-  details: 
+  details:
   - name: Art Classes
     list:
     - Design as Social Process
