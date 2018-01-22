@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<h2>Experience</h2>
+<ul>
+	{% for job in site.data.resume.jobs %}
+		<li>
+			<p>{{ job.date }}</p>
+			{% if job.employer %}<h3>{{ job.employer }}</h3>{% endif %}
+			{% if job.title %}<h4>{{ job.title }}</h4>{% endif %}
+			{% if job.details %}
+				<ul>
+					{% for detail in job.details %}
+						<li>{{ detail }}</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+			{% if job.location %}<h5>{{ job.location.city }}, {{ job.location.state }}</h5>{% endif %}
+		</li>
+	{% endfor %}
+</ul>
+
+<h2>Education</h2>
+<ul>
+	{% for school in site.data.resume.education %}
+		<li>
+			<p>{{ school.date }}</p>
+			<h3>{{ school.name }}</h3>
+			{% if school.major %}<h4>{{ school.major }}</h4>{% endif %}
+			{% if school.details %}
+				<ul>
+					{% for detail in school.details %}
+						<li>
+							<strong>{{ detail.name }}: </strong>
+							{% for item in detail.list %}
+								<span>{{ item }}</span>
+							{% endfor %}
+						</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+			{% if school.location %}<h5>{{ school.location.city }}, {{ school.location.state }}</h5>{% endif %}
+		</li>
+	{% endfor %}
+</ul>

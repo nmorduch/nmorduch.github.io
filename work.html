@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<ul class="work-list">
+<ul>
 	{% for post in site.posts %}
-		<li class="work-item">
+		<li>
 			{% for image in post.img %}
 				{% if post.categories contains 'web' %}
 					<a href="{{ post.link }}">
