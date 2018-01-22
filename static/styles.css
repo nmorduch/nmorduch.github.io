@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box; }
+
+*:after,
+*:before {
+  box-sizing: inherit; }
+
+html {
+  height: 100%;
+  font-family: Calibri, "Gil Sans", sans-serif; }
+
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 16px; }
+
+b,
+strong {
+  font-weight: 600; }
+
+i,
+em {
+  font-style: italic; }
+
+button,
+input,
+select,
+textarea {
+  font-size: 1rem;
+  font-family: Calibri, "Gil Sans", sans-serif; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  transition-property: color, background-color;
+  color: teal;
+  text-decoration: underline; }
+  a:hover, a:focus, a:active {
+    color: #004d4d; }
+  a:hover, a:focus, a:active {
+    text-decoration: underline; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.5rem; }
+
+h3 {
+  font-size: 1.2rem; }
+
+h4 {
+  font-size: 1rem; }
+
+h5 {
+  font-size: 1rem; }
+
+h6 {
+  font-size: 1rem; }
+
+/*# sourceMappingURL=styles.css.map */

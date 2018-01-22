@@ -24,9 +24,6 @@ github_username:  nmorduch
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
 name: "Naomi I. Morduch&nbsp;Toubman"
 imageurl: /static/images
