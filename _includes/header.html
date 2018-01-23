@@ -4,7 +4,7 @@
 		<ul class="header__nav">
 			{% for link in site.data.navigation.navigation %}
 				<li class="header__nav-item">
-					<a href="{{ link.link }}">{{ link.title }}</a>
+					<a href="{{ site.baseurl }}/{{ link.link }}">{{ link.title }}</a>
 				</li>
 			{% endfor %}
 		</ul>
