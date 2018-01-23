@@ -81,14 +81,8 @@ education:
     - Nothing But Treble (a capella group)
     - Oberlin Student Cooperative Association
     - Contra Dance and Swing Dance Clubs
-- name: <a href="http://tpc.edu/">The Philadelphia Center</a>
-  location:
-    city: Philadelphia
-    state: Pennsylvania
-  date: Fall 2012
-  major: Study Away Program
-- name: Guilford High School
-  location:
-    city: Guilford
-    state: Connecticut
-  date: 2005-2010
+  - name: Study Away
+    list:
+    - <a href="http://tpc.edu/">The Philadelphia Center</a>
+    - Fall 2012
+    - Contra Dance and Swing Dance Clubs
