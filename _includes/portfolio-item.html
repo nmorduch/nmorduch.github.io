@@ -1,0 +1,18 @@
+{% for image in post.img %}
+	{% if post.categories contains 'web' %}
+		<a href="{{ post.link }}">
+	{% else %}
+		<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
+	{% endif %}
+		<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
+	</a>
+{% endfor %}
+<h3>{{ post.title }}</h3>
+<p>{{ post.date | date: "%B %Y" }}</p>
+{{ post.content }}
+{% if post.categories contains 'web' %}
+	<a href="{{ post.link }}">View Site</a>
+{% endif %}
+{% for link in post.links %}
+	<a href="{{ link.url }}">{{ link.name }}</a>
+{% endfor %}

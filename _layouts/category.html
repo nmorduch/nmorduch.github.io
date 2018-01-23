@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<ul>
+	{% for post in site.categories[page.category] %}
+		<li>
+			{% include portfolio-item.html %}
+		</li>
+	{% endfor %}
+</ul>
