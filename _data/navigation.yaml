@@ -1,6 +1,12 @@
-name: "Naomi I. Morduch&nbsp;Toubman"
-img: headshot.jpg
-contact: 
+navigation:
+- title: About
+  link: ""
+- title: Work
+  link: work
+- title: Resume
+  link: resume
+
+contact:
 - title: Email
   link: "mailto:naomi@littleweaverweb.com"
 - title: GitHub
@@ -9,5 +15,3 @@ contact:
   link: "http://www.linkedin.com/pub/naomi-morduch-toubman/75/202/260/"
 - title: Twitter
   link: "https://twitter.com/nmorduch"
-- title: Tumblr
-  link: "http://nmorduch.tumblr.com/"

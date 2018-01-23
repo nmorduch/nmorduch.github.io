@@ -1,9 +1,9 @@
 <footer>
-	<div class="container">
-		<p>
-			{% for contact in site.data.about.contact %}
-				<span class="footer-link"><a href="{{ contact.link }}">{{ contact.title }}</a></span>
-			{% endfor %}
-		</p>
-	</div>
+	<ul class="footer-links">
+	{% for link in site.data.navigation.contact %}
+		<li>
+			<a href="{{ link.link }}">{{ link.title }}</a>
+		</li>
+	{% endfor %}
+	<ul>
 </footer>

@@ -1,7 +1,12 @@
-<header>
+<header class="header">
+	<h1 class="header__title">{{ site.name }}</h1>
 	<nav>
-		<h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-		<a href="{{ site.baseurl }}/work">Work</a>
-		<a href="{{ site.baseurl }}/resume">Resume</a>
+		<ul class="header__nav">
+			{% for link in site.data.navigation.navigation %}
+				<li class="header__nav-item">
+					<a href="{{ link.link }}">{{ link.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
 	</nav>
 </header>
