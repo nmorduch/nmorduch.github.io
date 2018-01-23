@@ -82,7 +82,7 @@ h6 {
 .header {
   text-align: center;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #444; }
+  border-bottom: 2px solid #c4c4c4; }
 
 .header__nav {
   list-style-type: none;
@@ -98,7 +98,8 @@ body {
   grid-template-columns: auto 33rem auto;
   grid-template-rows: auto 100fr;
   grid-template-areas: ". header ." ". main .";
-  grid-gap: 1rem; }
+  grid-gap: 1rem;
+  padding: 1rem 0; }
   @media (max-width: 527px) {
     body {
       grid-template-columns: 0 100fr 0; } }
