@@ -2,4 +2,26 @@
 layout: default
 ---
 
+{% for image in img %}
+	{% if categories contains 'web' %}
+		<a href="{{ link }}">
+	{% else %}
+		<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
+	{% endif %}
+		<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ title }}" class="img-responsive{% unless image.large == 'nbt-2011-12.gif' %} img-frame{% endunless %}">
+	</a>
+{% endfor %}
+
+<h3>{{ title }}</h3>
+
+<p>{{ date | date: "%B %Y" }}</p>
+
 {{ content }}
+
+{% if categories contains 'web' %}
+	<a href="{{ link }}">View Site</a>
+{% endif %}
+
+{% for link in links %}
+	<a href="{{ link.url }}">{{ link.name }}</a>
+{% endfor %}

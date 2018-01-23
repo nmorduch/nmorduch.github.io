@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: wide
 ---
 
-<ul>
+<div class="portfolio-grid">
 	{% for post in site.posts %}
-		<li>
-			{% include portfolio-item.html %}
-		</li>
+		{% include portfolio-item-teaser.html %}
 	{% endfor %}
-</ul>
+</div>

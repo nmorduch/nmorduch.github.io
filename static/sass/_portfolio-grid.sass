@@ -1,0 +1,9 @@
+.portfolio-grid
+	display: grid
+	grid-template-columns: 50fr 50fr
+	grid-gap: 2rem 1rem
+	+media-breakpoint-down(tiny)
+		grid-template-columns: 100fr
+
+.portfolio-grid__image--bordered
+	border: 1px solid $gray10
