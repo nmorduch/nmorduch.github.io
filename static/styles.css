@@ -7,7 +7,7 @@
 
 html {
   height: 100%;
-  font-family: Calibri, "Gil Sans", sans-serif; }
+  font-family: "Roboto", Calibri, "Gil Sans", sans-serif; }
 
 body {
   margin: 0;
@@ -16,7 +16,7 @@ body {
 
 b,
 strong {
-  font-weight: 600; }
+  font-weight: 500; }
 
 i,
 em {
@@ -27,13 +27,13 @@ input,
 select,
 textarea {
   font-size: 1rem;
-  font-family: Calibri, "Gil Sans", sans-serif; }
+  font-family: "Roboto", Calibri, "Gil Sans", sans-serif; }
 
 code,
 kbd,
 pre,
 samp {
-  font-family: monospace; }
+  font-family: "Roboto Mono", monospace; }
 
 img {
   max-width: 100%;
@@ -56,9 +56,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-weight: 400; }
 
 h1 {
   font-size: 2rem; }
