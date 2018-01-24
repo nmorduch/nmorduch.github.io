@@ -7,7 +7,8 @@
 
 html {
   height: 100%;
-  font-family: "Roboto", Calibri, "Gil Sans", sans-serif; }
+  font-family: "Roboto", Calibri, "Gil Sans", sans-serif;
+  font-weight: 300; }
 
 body {
   margin: 0;
@@ -44,11 +45,12 @@ a {
   transition-timing-function: linear;
   transition-property: color, background-color;
   color: teal;
-  text-decoration: underline; }
+  text-decoration: none;
+  font-weight: 500; }
   a:hover, a:focus, a:active {
     color: #004d4d; }
   a:hover, a:focus, a:active {
-    text-decoration: underline; }
+    text-decoration: none; }
 
 h1,
 h2,
@@ -62,7 +64,8 @@ h6 {
   font-weight: 400; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-weight: 300; }
 
 h2 {
   font-size: 1.5rem; }
@@ -81,7 +84,11 @@ h6 {
 
 .header {
   text-align: center;
+  padding-bottom: 1rem;
   border-bottom: 2px solid #c4c4c4; }
+
+.header__page-title {
+  display: inline-block; }
 
 .header__nav {
   list-style-type: none;

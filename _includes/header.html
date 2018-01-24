@@ -1,6 +1,10 @@
 <header class="header">
-	<h1 class="header__title">{{ site.name }}</h1>
-	<!--nav>
+	<h1>
+		{{ site.name }}{% if page.title %}:
+		<span class="header__page-title">{{ page.title }}</span>
+		{% endif %}
+	</h1>
+	<nav>
 		<ul class="header__nav">
 			{% for link in site.data.navigation.navigation %}
 				<li class="header__nav-item">
@@ -8,5 +12,5 @@
 				</li>
 			{% endfor %}
 		</ul>
-	</nav-->
+	</nav>
 </header>

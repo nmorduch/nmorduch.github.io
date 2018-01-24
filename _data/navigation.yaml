@@ -1,10 +1,10 @@
 navigation:
 - title: About
   link: ""
-- title: Work
-  link: work
-- title: Resume
-  link: resume
+- title: Web
+  link: work/web
+- title: Print
+  link: work/print
 
 contact:
 - title: Email

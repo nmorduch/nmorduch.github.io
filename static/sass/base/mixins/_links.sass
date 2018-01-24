@@ -18,15 +18,15 @@
 // STYLES
 
 =link--unstyled
-	+link-color(inherit,inherit)
+	+link-color(inherit, $color-hover: $link-color)
 	+decoration(inherit)
 
-=link--underline($color: $link-color, $color-hover: darken($color,10))
+=link--underline($color: $link-color, $color-hover: $link-hover-color)
 	+link-transition
 	+link-color($color,$color-hover)
 	+decoration(underline)
 
-=link--no-underline($color: inherit, $color-hover: $link-color)
+=link--no-underline($color: $link-color, $color-hover: $link-hover-color)
 	+link-transition
 	+link-color($color,$color-hover)
 	+decoration(none)
