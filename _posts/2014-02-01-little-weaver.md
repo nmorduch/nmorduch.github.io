@@ -1,6 +1,6 @@
 ---
 layout: portfolio_item
-title: Little Weaver Web Collective
+title: Little Weaver Original Website
 link: http://littleweaverweb.com/
 categories: web
 img:
