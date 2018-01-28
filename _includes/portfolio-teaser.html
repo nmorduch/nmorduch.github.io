@@ -16,6 +16,7 @@
 		<p class="portfolio-teaser__date">{{ post.date | date: "%B %Y" }}</p>
 
 		{{ post.content }}
+
 		{% if post.links %}
 			{% for link in post.links %}
 			<a href="{{ link.url }}" class="portfolio-teaser__link">{{ link.name }}</a>
@@ -23,7 +24,7 @@
 		{% elsif post.categories contains 'web' %}
 			<a href="{{ post.link }}" class="portfolio-teaser__link">View site</a>
 		{% elsif post.categories contains 'print' %}
-			<a href="{{ post.link }}" class="portfolio-teaser__link">View full size</a>
+			<a href="{{ post.url }}" class="portfolio-teaser__link">View larger</a>
 		{% endif %}
 	</div>
 </div>

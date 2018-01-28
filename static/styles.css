@@ -130,16 +130,28 @@ main {
 
 .page-title {
   padding: 0.5rem;
-  background-color: #dcf1f4; }
+  background-color: #dcf1f4;
+  margin-bottom: 2rem; }
 
 .page-title--empty {
   background-color: #b5e1e8;
   height: 0.25rem;
   margin-bottom: 2rem; }
 
+.portfolio-item__image--bordered {
+  border: 1px solid #ddd;
+  border-radius: 3px; }
+
+.portfolio-item__date {
+  color: #6f6f6f; }
+
+.portfolio-item__link {
+  display: block; }
+
 .portfolio-teaser {
-  padding: 2rem 0;
+  padding-bottom: 2rem;
   border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 50fr 50fr;
   grid-template-rows: auto;
