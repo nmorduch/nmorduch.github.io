@@ -1,0 +1,26 @@
+<div class="portfolio-teaser">
+	<div class="portfolio-teaser__column--image">
+		{% for image in post.img %}
+			{% if post.categories contains 'web' %}
+				<a href="{{ post.link }}">
+			{% else %}
+				<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
+			{% endif %}
+				<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-teaser__image--bordered{% endunless %}">
+			</a>
+		{% endfor %}
+	</div>
+	<div class="portfolio-teaser__column--text">
+		<h2>{{ post.title }}</h2>
+		<p class="portfolio-teaser__date">{{ post.date | date: "%B %Y" }}</p>
+
+		{{ post.content }}
+
+		{% if post.categories contains 'web' %}
+			<a href="{{ post.link }}">View Site</a>
+		{% endif %}
+		{% for link in post.links %}
+			<a href="{{ link.url }}">{{ link.name }}</a>
+		{% endfor %}
+	</div>
+</div>

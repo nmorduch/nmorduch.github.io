@@ -2,8 +2,6 @@
 layout: wide
 ---
 
-<div class="portfolio-grid">
-	{% for post in site.posts %}
-		{% include portfolio-item-teaser.html %}
-	{% endfor %}
-</div>
+{% for post in site.posts %}
+	{% include portfolio-teaser.html %}
+{% endfor %}
