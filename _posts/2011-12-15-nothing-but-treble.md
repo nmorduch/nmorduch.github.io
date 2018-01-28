@@ -2,7 +2,6 @@
 layout: portfolio_item
 title: Nothing But Treble
 categories: print
-link: http://nmorduch.github.io/print/nothing-but-treble.html
 img: 
 - large: nbt-2011-12.gif
 ---

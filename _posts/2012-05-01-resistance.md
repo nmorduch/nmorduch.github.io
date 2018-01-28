@@ -2,7 +2,6 @@
 layout: portfolio_item
 title: Resistance
 categories: print
-link: http://nmorduch.github.io/print/resistance.html
 img: 
 - large: resistance.jpg
 ---
