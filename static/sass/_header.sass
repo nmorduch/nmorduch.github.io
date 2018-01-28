@@ -1,14 +1,13 @@
 .header
-	text-align: center
-	padding-bottom: 1rem
-	border-bottom: 2px solid $brand-secondary
+	padding: 1rem 0
 
-.header__page-title
-	display: inline-block
+.header__title
+	margin-bottom: 0.5rem
 
 .header__nav
 	+list--unstyled
+	color: $gray50--text
 
 .header__nav-item
-	display: inline-block
-	margin: 0 0.25rem
+	+list--comma(" •")
+	display: inline
