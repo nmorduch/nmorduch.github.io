@@ -145,7 +145,7 @@ main {
   grid-gap: 1rem; }
   .portfolio-teaser:last-child {
     border-bottom-width: 0; }
-  @media (max-width: 399px) {
+  @media (max-width: 447px) {
     .portfolio-teaser {
       grid-template-columns: auto;
       grid-template-rows: auto auto;
