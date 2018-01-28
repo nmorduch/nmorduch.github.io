@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   font-weight: 400; }
   a:hover, a:focus, a:active {
-    color: teal; }
+    color: #0f6775; }
   a:hover, a:focus, a:active {
     text-decoration: none; }
 
@@ -130,10 +130,10 @@ main {
 
 .page-title {
   padding: 0.5rem;
-  background-color: #a6f2f2; }
+  background-color: #dcf1f4; }
 
 .page-title--empty {
-  background-color: #7aecec;
+  background-color: #b5e1e8;
   height: 0.25rem;
   margin-bottom: 2rem; }
 
