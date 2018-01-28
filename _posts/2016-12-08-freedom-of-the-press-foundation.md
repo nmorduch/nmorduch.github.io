@@ -8,5 +8,3 @@ img:
     thumb: fpf.jpg
 published: true
 ---
-
-TODO

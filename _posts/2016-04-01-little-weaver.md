@@ -7,5 +7,3 @@ img:
 - large: lw-2016.png
   thumb: lw-2016.jpg
 ---
-
-TODO

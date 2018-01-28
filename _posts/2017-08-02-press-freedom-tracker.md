@@ -8,5 +8,3 @@ img:
     thumb: pft.jpg
 published: true
 ---
-
-TODO
