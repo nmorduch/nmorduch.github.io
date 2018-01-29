@@ -120,7 +120,8 @@ header {
   grid-area: header; }
 
 main {
-  grid-area: main; }
+  grid-area: main;
+  padding-bottom: 2rem; }
 
 .layout__content--narrow {
   max-width: 528px; }
