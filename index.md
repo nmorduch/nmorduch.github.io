@@ -6,7 +6,7 @@ I've been working in [web design]({{ baseurl }}/work/web) for over six years. I 
 
 Experience in [print design]({{ baseurl }}/work/print) and woodworking give me a broad range of ways of thinking about design.
 
-I code organized, **detail-oriented** HTML and CSS. I've worked with Django and Liquid templates, React, and static HTML, as well as with SASS, BEM and SMACSS.
+I code organized, **detail-oriented** HTML and CSS. I've worked with Django and Liquid templates, React, and static HTML; SASS, BEM and SMACSS; and Sketch, Photoshop, Illustrator, and InDesign.
 
 I work well in a team, and care about writing and maintaining **readable code** to enable  collaboration. I'm friendly and personable, and prioritize **client satisfaction**.
 

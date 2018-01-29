@@ -2,8 +2,8 @@
 layout: portfolio_item
 title: Nothing But Treble
 categories: print
-img: 
+img:
 - large: nbt-2011-12.gif
 ---
 
-Screen printed poster. Hand-drawn from a photo reference, then scanned and manipulated in Illustrator and Photoshop. Three colors: blue, transparent brown, then cream.
+I designed and screen printed this poster by hand in a screen printing class, to advertise an a cappella concert. The image was hand-drawn with a photo reference, then scanned and manipulated on the computer. This is a three color print: blue, transparent brown, then cream.
