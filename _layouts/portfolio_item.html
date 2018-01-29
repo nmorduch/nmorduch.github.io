@@ -3,7 +3,7 @@ layout: wide
 ---
 
 {% for image in page.img %}
-	{% if page.categories contains 'web' %}
+	{% if page.link %}
 		<a href="{{ page.link }}">
 	{% else %}
 		<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
@@ -22,6 +22,6 @@ layout: wide
 	{% for link in page.links %}
 		<a href="{{ link.url }}" class="portfolio-item__link">{{ link.name }}</a>
 	{% endfor %}
-{% elsif page.categories contains 'web' %}
+{% elsif page.link %}
 	<a href="{{ page.link }}" class="portfolio-item__link">View site</a>
 {% endif %}
