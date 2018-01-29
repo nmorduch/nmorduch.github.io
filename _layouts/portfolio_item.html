@@ -16,7 +16,7 @@ layout: wide
 
 <p class="portfolio-item__date">{{ page.date | date: "%B %Y" }}</p>
 
-{{ content }}
+<div class="portfolio-item__description">{{ content }}</div>
 
 {% if page.links %}
 	{% for link in page.links %}

@@ -8,25 +8,25 @@
 			{% else %}
 				<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
 			{% endif %}
-				<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-teaser__image--bordered{% endunless %}">
+				<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
 			</a>
 		{% endfor %}
 	</div>
 	<div class="portfolio-teaser__column--text">
 		<h3>{{ post.title }}</h3>
 
-		<p class="portfolio-teaser__date">{{ post.date | date: "%B %Y" }}</p>
+		<p class="portfolio-item__date">{{ post.date | date: "%B %Y" }}</p>
 
-		{{ post.content }}
+		<div class="portfolio-item__description">{{ post.content }}</div>
 
 		{% if post.links %}
 			{% for link in post.links %}
-				<a href="{{ link.url }}" class="portfolio-teaser__link">{{ link.name }}</a>
+				<a href="{{ link.url }}" class="portfolio-item__link">{{ link.name }}</a>
 			{% endfor %}
 		{% elsif post.link %}
-			<a href="{{ post.link }}" class="portfolio-teaser__link">View site</a>
+			<a href="{{ post.link }}" class="portfolio-item__link">View site</a>
 		{% else %}
-			<a href="{{ post.url }}" class="portfolio-teaser__link">View larger</a>
+			<a href="{{ post.url }}" class="portfolio-item__link">View larger</a>
 		{% endif %}
 	</div>
 </div>
