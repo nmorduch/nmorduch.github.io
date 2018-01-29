@@ -1,7 +1,9 @@
 <div class="portfolio-teaser">
 	<div class="portfolio-teaser__column--image">
 		{% for image in post.img %}
-			{% if post.categories contains 'web' %}
+			{% if post.links %}
+				<a href="{{ post.links.first.url }}">
+			{% elsif post.categories contains 'web' %}
 				<a href="{{ post.link }}">
 			{% else %}
 				<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
