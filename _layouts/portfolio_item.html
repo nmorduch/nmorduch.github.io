@@ -20,7 +20,7 @@ layout: wide
 
 {% if page.links %}
 	{% for link in page.links %}
-	<a href="{{ link.url }}" class="portfolio-item__link">{{ link.name }}</a>
+		<a href="{{ link.url }}" class="portfolio-item__link">{{ link.name }}</a>
 	{% endfor %}
 {% elsif page.categories contains 'web' %}
 	<a href="{{ page.link }}" class="portfolio-item__link">View site</a>

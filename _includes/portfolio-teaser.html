@@ -21,7 +21,7 @@
 
 		{% if post.links %}
 			{% for link in post.links %}
-			<a href="{{ link.url }}" class="portfolio-teaser__link">{{ link.name }}</a>
+				<a href="{{ link.url }}" class="portfolio-teaser__link">{{ link.name }}</a>
 			{% endfor %}
 		{% elsif post.categories contains 'web' %}
 			<a href="{{ post.link }}" class="portfolio-teaser__link">View site</a>
