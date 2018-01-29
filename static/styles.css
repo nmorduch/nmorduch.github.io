@@ -123,8 +123,11 @@ main {
   grid-area: main;
   padding-bottom: 2rem; }
 
-.layout__content--narrow {
-  max-width: 528px; }
+.layout__content--big-text {
+  font-size: 1.2rem; }
+  @media (min-width: 528px) {
+    .layout__content--big-text {
+      font-size: 1.5rem; } }
 
 .page-title {
   padding: 0.5rem;
