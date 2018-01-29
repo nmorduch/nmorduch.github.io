@@ -2,16 +2,6 @@
 layout: wide
 ---
 
-{% for image in page.img %}
-	{% if page.link %}
-		<a href="{{ page.link }}">
-	{% else %}
-		<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
-	{% endif %}
-		<img src="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}" alt="{{ title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
-	</a>
-{% endfor %}
-
 <h3>{{ title }}</h3>
 
 <p class="portfolio-item__date">{{ page.date | date: "%B %Y" }}</p>
@@ -25,3 +15,13 @@ layout: wide
 {% elsif page.link %}
 	<a href="{{ page.link }}" class="portfolio-item__link">View site</a>
 {% endif %}
+
+{% for image in page.img %}
+	{% if page.link %}
+		<a href="{{ page.link }}">
+	{% else %}
+		<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
+	{% endif %}
+		<img src="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}" alt="{{ title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
+	</a>
+{% endfor %}
