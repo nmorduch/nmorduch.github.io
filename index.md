@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: narrow
 ---
 
 I design primarily for the web with the needs of users on all devices at the forefront of my mind. I keep up with current standards, and choose **usability** over flashiness or minimalism.
