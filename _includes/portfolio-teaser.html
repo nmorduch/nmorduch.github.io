@@ -1,9 +1,9 @@
 <div class="portfolio-teaser">
 	<div class="portfolio-teaser__column--image">
 		{% for image in post.img %}
-			{% if post.links %}
+			{% if post.link=="custom" %}
 				<a href="{{ post.links.first.url }}">
-			{% elsif post.categories contains 'web' %}
+			{% elsif post.link %}
 				<a href="{{ post.link }}">
 			{% else %}
 				<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
@@ -23,9 +23,9 @@
 			{% for link in post.links %}
 				<a href="{{ link.url }}" class="portfolio-teaser__link">{{ link.name }}</a>
 			{% endfor %}
-		{% elsif post.categories contains 'web' %}
+		{% elsif post.link %}
 			<a href="{{ post.link }}" class="portfolio-teaser__link">View site</a>
-		{% elsif post.categories contains 'print' %}
+		{% else %}
 			<a href="{{ post.url }}" class="portfolio-teaser__link">View larger</a>
 		{% endif %}
 	</div>
