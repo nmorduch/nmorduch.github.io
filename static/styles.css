@@ -99,7 +99,8 @@ h6 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  color: #6f6f6f; }
+  color: #6f6f6f;
+  font-size: 1.2rem; }
 
 .header__nav-item {
   display: inline; }
@@ -154,6 +155,8 @@ main {
 
 .portfolio-item__link {
   display: block; }
+  .portfolio-item__link::after {
+    content: " ▸"; }
 
 .portfolio-teaser {
   padding-bottom: 2rem;

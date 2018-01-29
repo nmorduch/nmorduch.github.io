@@ -8,4 +8,4 @@ img:
   thumb: fambly.jpg
 ---
 
-Static site for a family update card with a few friends. Ma'ayan Plaut wrote a [blog post](https://www.oberlin.edu/blogs/love-delightful-family) about it.
+This was the first website I made that I was really proud of. A few friends and I decided to make an update card for our "fambly." One of them wrote a [blog post](https://www.oberlin.edu/blogs/love-delightful-family) about it.

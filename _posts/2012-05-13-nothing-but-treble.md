@@ -7,4 +7,4 @@ img:
   thumb: nbt-2012-05.jpg
 ---
 
-Poster made in InDesign.
+I designed this poster to advertise an a cappella concert. It needed to be eye-catching even when produced on a photocopier.
