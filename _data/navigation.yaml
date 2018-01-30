@@ -5,13 +5,5 @@ navigation:
   link: work/web
 - title: Print
   link: work/print
-
-contact:
-- title: Email
-  link: "mailto:naomi@littleweaverweb.com"
-- title: GitHub
-  link: "https://github.com/nmorduch/"
-- title: LinkedIn
-  link: "http://www.linkedin.com/pub/naomi-morduch-toubman/75/202/260/"
-- title: Twitter
-  link: "https://twitter.com/nmorduch"
+- title: Wood
+  link: work/wood
