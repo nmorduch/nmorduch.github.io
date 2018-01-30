@@ -10,7 +10,7 @@ I code organized, **detail-oriented** HTML and CSS. I've worked with Django and 
 
 I work well in a team, and care about writing and maintaining **readable code** to enable  collaboration. I'm friendly and personable, and prioritize **client satisfaction**.
 
-Outside of work, I enjoy pottery, woodworking, cooking, and reading.
+Outside of work, I enjoy [pottery]({{ baseurl }}/work/clay), woodworking, cooking, and reading.
 
 You can
 [email me](mailto:nmorduch@gmail.com)
