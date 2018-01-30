@@ -8,4 +8,4 @@ img:
 published: true
 ---
 
-A javascript version of the [Lights Out](https://en.wikipedia.org/wiki/Lights_Out_(game)) game. The code can be found [on Github](https://github.com/nmorduch/lights-out).
+I created a javascript version of the [Lights Out](https://en.wikipedia.org/wiki/Lights_Out_(game)) game as an exercise. It can be played at various board sizes, and on a torus or a plane.
