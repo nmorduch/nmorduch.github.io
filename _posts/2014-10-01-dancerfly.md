@@ -9,4 +9,4 @@ img:
 published: true
 ---
 
-Custom event management platform
+I worked on many pieces of this custom event management platform that was a large internal project for Little Weaver early in our history.

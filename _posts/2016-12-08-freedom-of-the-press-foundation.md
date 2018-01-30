@@ -8,3 +8,5 @@ img:
     thumb: fpf.jpg
 published: true
 ---
+
+I worked on research for this project as well as many aspects of the design and front-end development.
