@@ -1,5 +1,4 @@
 ---
-layout: portfolio_item
 title: Little Weaver Web Collective
 link: http://littleweaverweb.com/
 categories: web

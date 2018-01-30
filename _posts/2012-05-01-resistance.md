@@ -1,5 +1,4 @@
 ---
-layout: portfolio_item
 title: Resistance
 categories: print
 img:

@@ -1,5 +1,4 @@
 ---
-layout: portfolio_item
 title: Meowberlin
 link: http://oberlin.edu/kittens
 categories: web
