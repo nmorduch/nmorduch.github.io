@@ -1,5 +1,4 @@
 ---
-layout: portfolio_item
 title: Oberlin News Center
 categories: web
 links:

@@ -1,5 +1,4 @@
 ---
-layout: portfolio_item
 title: Fambly Card
 link: http://fambly.masoevda.com/
 categories: web

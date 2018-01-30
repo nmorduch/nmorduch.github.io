@@ -1,5 +1,4 @@
 ---
-layout: portfolio_item
 title: Nothing But Treble
 categories: print
 img:
