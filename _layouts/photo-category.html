@@ -2,6 +2,12 @@
 layout: wide
 ---
 
+{% if content %}
+	<div class="category-description">
+		{{ content }}
+	</div>
+{% endif %}
+
 <div class="photo-layout">
 	{% for post in site.categories[page.category] %}
 		{% for image in post.img %}

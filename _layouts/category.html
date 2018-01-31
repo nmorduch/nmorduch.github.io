@@ -2,6 +2,12 @@
 layout: wide
 ---
 
+{% if content %}
+	<div class="category-description">
+		{{ content }}
+	</div>
+{% endif %}
+
 {% for post in site.categories[page.category] %}
 	{% include portfolio-teaser.html %}
 {% endfor %}
