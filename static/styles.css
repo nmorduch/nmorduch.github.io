@@ -158,6 +158,10 @@ main {
   .portfolio-item__link::after {
     content: " ▸"; }
 
+.photo-layout {
+  columns: 200px 2;
+  column-gap: 0.5rem; }
+
 .portfolio-teaser {
   padding-bottom: 2rem;
   border-bottom: 1px solid #ddd;
