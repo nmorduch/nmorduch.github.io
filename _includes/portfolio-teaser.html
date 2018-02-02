@@ -8,7 +8,7 @@
 			{% else %}
 				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}">
 			{% endif %}
-				<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
+				<img src="{{ site.baseurl }}{{ site.imageurl }}/{% if image.thumb %}thumbs/{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
 			</a>
 		{% endfor %}
 	</div>
