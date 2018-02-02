@@ -1,6 +1,7 @@
 ---
 title: Meowberlin
-link: http://oberlin.edu/kittens
+links: 
+- url: http://oberlin.edu/kittens
 categories: web
 img:
 - large: meowberlin.jpg

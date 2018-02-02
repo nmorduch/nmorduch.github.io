@@ -1,6 +1,7 @@
 ---
 title: "Oberlin\_Steel"
-link: http://oberlinsteel.com
+links:
+- url: http://oberlinsteel.com
 categories: web
 img:
   - large: osteel.png

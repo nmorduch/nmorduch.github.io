@@ -7,6 +7,7 @@ links:
 img:
 - large: news-center.png
   thumb: news-center.jpg
+  url: http://nmorduch.me/static/images/news-center.png
 ---
 
 I was the primary visual designer and front end developer on this project.

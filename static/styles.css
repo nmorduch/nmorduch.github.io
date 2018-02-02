@@ -162,10 +162,6 @@ main {
   .portfolio-item__link::after {
     content: " ▸"; }
 
-@media (max-width: 447px) {
-  .portfolio-item__link--to-detail {
-    display: none; } }
-
 .photo-layout {
   columns: 200px 2;
   column-gap: 0.5rem; }

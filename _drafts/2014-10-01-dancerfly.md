@@ -1,6 +1,7 @@
 ---
 title: "Dancerfly"
-link: "http://dancerfly.com/"
+links:
+- url: "http://dancerfly.com/"
 categories: web
 img:
   - large: dancerfly.png

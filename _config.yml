@@ -27,7 +27,7 @@ markdown: kramdown
 
 name: "Naomi I. Morduch&nbsp;Toubman"
 imageurl: /static/images
-permalink: /:year/:title/
+permalink: :title
 
 defaults:
   -

@@ -1,6 +1,7 @@
 ---
 title: "Susan Morduch, PhD"
-link: "http://drsusanmorduch.com/"
+links:
+- url: "http://drsusanmorduch.com/"
 categories: web
 img:
   - large: susan.png
