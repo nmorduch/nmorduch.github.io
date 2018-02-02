@@ -1,6 +1,7 @@
 ---
 title: "Freedom of the Press Foundation"
-link: "http://freedom.press/"
+links:
+- url: "http://freedom.press/"
 categories: web
 img:
   - large: fpf.png

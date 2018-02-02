@@ -1,6 +1,7 @@
 ---
 title: Lights Out
-link: "http://nmorduch.me/lights-out"
+links:
+- url: "http://nmorduch.me/lights-out"
 categories: web
 img:
   - large: lights-out.png

@@ -1,6 +1,7 @@
 ---
 title: "Press Freedom Tracker"
-link: "https://pressfreedomtracker.us/"
+links:
+- url: "https://pressfreedomtracker.us/"
 categories: web
 img:
 - large: pft.png

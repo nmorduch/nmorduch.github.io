@@ -1,10 +1,10 @@
 <div class="portfolio-teaser">
 	<div class="portfolio-teaser__column--image">
 		{% for image in post.img %}
-			{% if post.links %}
+			{% if image.url %}
+				<a href="{{ image.url }}">
+			{% elsif post.links %}
 				<a href="{{ post.links.first.url }}">
-			{% elsif post.link %}
-				<a href="{{ post.link }}">
 			{% else %}
 				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}">
 			{% endif %}
@@ -13,20 +13,20 @@
 		{% endfor %}
 	</div>
 	<div class="portfolio-teaser__column--text">
-		<h3>{{ post.title }}</h3>
+		<h3 id="{{ post.id }}">{{ post.title }}</h3>
 
 		<p class="portfolio-item__date">{{ post.date | date: "%B %Y" }}</p>
 
 		<div class="portfolio-item__description">{{ post.content }}</div>
 
-		{% if post.links %}
-			{% for link in post.links %}
-				<a href="{{ link.url }}" class="portfolio-item__link">{{ link.name }}</a>
-			{% endfor %}
-		{% elsif post.link %}
-			<a href="{{ post.link }}" class="portfolio-item__link">View site</a>
-		{% else %}
-			<a href="{{ post.url }}" class="portfolio-item__link portfolio-item__link--to-detail">View larger</a>
-		{% endif %}
+		{% for link in post.links %}
+			<a href="{{ link.url }}" class="portfolio-item__link">
+				{% if link.name %}
+					{{ link.name }}
+				{% else %}
+					View site
+				{% endif %}
+			</a>
+		{% endfor %}
 	</div>
 </div>

@@ -1,6 +1,7 @@
 ---
 title: Fambly Card
-link: http://fambly.masoevda.com/
+links:
+- url: http://fambly.masoevda.com/
 categories: web
 img:
 - thumb: fambly.jpg

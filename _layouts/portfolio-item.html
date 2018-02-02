@@ -10,15 +10,17 @@ layout: wide
 
 {% if page.links %}
 	<p>
-		{% for link in page.links %}
-			<a href="{{ link.url }}" class="portfolio-item__link">{{ link.name }}</a>
+		{% for link in post.links %}
+			<a href="{{ link.url }}" class="portfolio-item__link">
+				{% if link.name %}
+					{{ link.name }}
+				{% else %}
+					View site
+				{% endif %}
+			</a>
 		{% endfor %}
 	</p>
-{% elsif page.link %}
-	<p>
-		<a href="{{ page.link }}" class="portfolio-item__link">View site</a>
-	</p>
-{% endif %}
+{{% endif %}
 
 {% for image in page.img %}
 	<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}">

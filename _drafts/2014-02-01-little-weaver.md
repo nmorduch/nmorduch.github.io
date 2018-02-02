@@ -1,6 +1,7 @@
 ---
 title: Little Weaver Original Website
-link: http://littleweaverweb.com/
+links:
+- url: http://littleweaverweb.com/
 categories: web
 img:
 - large: lw.png
