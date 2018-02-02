@@ -9,7 +9,7 @@ I cofounded [Little Weaver Web Collective](http://littleweaverweb.com), a web de
 
 I've been making things for as long as I can remember, and I find that my time spent on [woodworking]({{ baseurl }}/work/wood) and [pottery]({{ baseurl }}/work/clay) broadens my ways of thinking about design. Rather than two-dimensional media for consuming and manipulating information, these are three-dimensional tools. I like to play with glazes and shaping the outside of my pots, but always leave the rims and insides smooth so that they can be used.
 
-I also enjoy [cooking]({{ baseurl }}/2013/cooking), reading, and the [outdoors]({{ baseurl }}/work/photo). The first two involve interacting with design, while the latter affords the beauty of the undesigned natural world.
+I also enjoy [cooking]({{ baseurl }}/work/cooking), reading, and the [outdoors]({{ baseurl }}/work/photo). The first two involve interacting with design, while the latter affords the beauty of the undesigned natural world.
 
 Technologies I use include Sketch, InDesign, Illustrator, Photoshop, HTML, CSS, SASS, and BEM, as well as Django and Liquid templates.
 
