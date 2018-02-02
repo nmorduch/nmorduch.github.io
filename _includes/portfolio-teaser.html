@@ -6,7 +6,7 @@
 			{% elsif post.link %}
 				<a href="{{ post.link }}">
 			{% else %}
-				<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
+				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}">
 			{% endif %}
 				<img src="{{ site.baseurl }}{{ site.imageurl }}/thumbs/{% if image.thumb %}{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
 			</a>
