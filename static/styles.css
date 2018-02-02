@@ -37,7 +37,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Roboto Mono", monospace; }
+  font-family: monospace; }
 
 img {
   max-width: 100%;
@@ -161,6 +161,10 @@ main {
   display: block; }
   .portfolio-item__link::after {
     content: " ▸"; }
+
+@media (max-width: 447px) {
+  .portfolio-item__link--to-detail {
+    display: none; } }
 
 .photo-layout {
   columns: 200px 2;
