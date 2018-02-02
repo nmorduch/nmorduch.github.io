@@ -157,6 +157,11 @@ main {
 .portfolio-item__date {
   color: #6f6f6f; }
 
+.portfolio-item__image-link {
+  transition: opacity 0.2s linear; }
+  .portfolio-item__image-link:hover, .portfolio-item__image-link:focus, .portfolio-item__image-link:active {
+    opacity: 0.85; }
+
 .portfolio-item__link {
   display: block; }
   .portfolio-item__link::after {
