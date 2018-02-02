@@ -9,6 +9,6 @@ img:
   thumb: news-center.jpg
 ---
 
-I designed the old Oberlin News Center with Harris Lapiroff and Violet Peña. After the initial ribbon conceit was decided, I did all of the design, from choosing typefaces and sizes to choosing colors.
+I was the primary visual designer and front end developer on this project.
 
 The link goes to an archived version, which has everything but the typefaces.

@@ -1,7 +1,7 @@
 <div class="portfolio-teaser">
 	<div class="portfolio-teaser__column--image">
 		{% for image in post.img %}
-			{% if post.link=="custom" %}
+			{% if post.links %}
 				<a href="{{ post.links.first.url }}">
 			{% elsif post.link %}
 				<a href="{{ post.link }}">

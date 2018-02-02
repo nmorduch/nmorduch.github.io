@@ -86,6 +86,10 @@ h5 {
 h6 {
   font-size: 1rem; }
 
+.category-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem; }
+
 .header {
   padding: 1rem 0; }
 
@@ -157,6 +161,10 @@ main {
   display: block; }
   .portfolio-item__link::after {
     content: " ▸"; }
+
+.photo-layout {
+  columns: 200px 2;
+  column-gap: 0.5rem; }
 
 .portfolio-teaser {
   padding-bottom: 2rem;

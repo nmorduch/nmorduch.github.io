@@ -9,19 +9,19 @@ layout: wide
 <div class="portfolio-item__description">{{ content }}</div>
 
 {% if page.links %}
-	{% for link in page.links %}
-		<a href="{{ link.url }}" class="portfolio-item__link">{{ link.name }}</a>
-	{% endfor %}
+	<p>
+		{% for link in page.links %}
+			<a href="{{ link.url }}" class="portfolio-item__link">{{ link.name }}</a>
+		{% endfor %}
+	</p>
 {% elsif page.link %}
-	<a href="{{ page.link }}" class="portfolio-item__link">View site</a>
+	<p>
+		<a href="{{ page.link }}" class="portfolio-item__link">View site</a>
+	</p>
 {% endif %}
 
 {% for image in page.img %}
-	{% if page.link %}
-		<a href="{{ page.link }}">
-	{% else %}
-		<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
-	{% endif %}
+	<a href="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}">
 		<img src="{{ site.baseurl }}{{ site.imageurl }}/work/{{ image.large }}" alt="{{ title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
 	</a>
 {% endfor %}
