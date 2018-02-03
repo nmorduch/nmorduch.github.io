@@ -193,9 +193,9 @@ main {
       grid-template-areas: "teaser-image" "teaser-text"; } }
 
 .portfolio-teaser__column--image {
-  grid-area: "teaser-image"; }
+  grid-area: teaser-image; }
 
 .portfolio-teaser__column--text {
-  grid-area: "teaser-text"; }
+  grid-area: teaser-text; }
 
 /*# sourceMappingURL=styles.css.map */
