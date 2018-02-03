@@ -1,7 +1,7 @@
 ---
 layout: photo-category
-title: Nature photos
+title: Photographs
 category: photo
 ---
 
-My favorite photos tend to be the ones that feature colors in the clouds or light in the trees.
+These are a few of my favorite photos that I've taken of the outdoors. They tend to be the ones that feature colors in the clouds or light in the trees.
