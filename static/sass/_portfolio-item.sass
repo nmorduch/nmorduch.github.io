@@ -1,5 +1,5 @@
-.portfolio-item__image--bordered
-	border: 1px solid $gray10
+.portfolio-item__image
+	filter: drop-shadow(0 0 1px $gray20--text)
 	border-radius: 3px
 
 .portfolio-item__description
@@ -7,6 +7,11 @@
 
 .portfolio-item__date
 	color: $gray50--text
+
+.portfolio-item__image-link
+	transition: opacity .2s linear
+	+hover
+		opacity: 0.85
 
 .portfolio-item__link
 	display: block

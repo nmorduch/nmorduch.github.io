@@ -2,13 +2,13 @@
 	<div class="portfolio-teaser__column--image">
 		{% for image in post.img %}
 			{% if image.url %}
-				<a href="{{ image.url }}">
+				<a href="{{ image.url }}" class="portfolio-item__image-link">
 			{% elsif post.links %}
-				<a href="{{ post.links.first.url }}">
+				<a href="{{ post.links.first.url }}" class="portfolio-item__image-link">
 			{% else %}
-				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}">
+				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}" class="portfolio-item__image-link">
 			{% endif %}
-				<img src="{{ site.baseurl }}{{ site.imageurl }}/{% if image.thumb %}thumbs/{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
+				<img src="{{ site.baseurl }}{{ site.imageurl }}/{% if image.thumb %}thumbs/{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="portfolio-item__image">
 			</a>
 		{% endfor %}
 	</div>

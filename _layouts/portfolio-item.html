@@ -20,10 +20,10 @@ layout: wide
 			</a>
 		{% endfor %}
 	</p>
-{{% endif %}
+{% endif %}
 
 {% for image in page.img %}
 	<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}">
-		<img src="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}" alt="{{ title }}" class="{% unless image.large == 'nbt-2011-12.gif' %}portfolio-item__image--bordered{% endunless %}">
+		<img src="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}" alt="{{ title }}" class="portfolio-item__image">
 	</a>
 {% endfor %}

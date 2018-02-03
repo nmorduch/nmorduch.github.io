@@ -147,8 +147,8 @@ main {
   height: 0.25rem;
   margin-bottom: 2rem; }
 
-.portfolio-item__image--bordered {
-  border: 1px solid #ddd;
+.portfolio-item__image {
+  filter: drop-shadow(0 0 1px #919191);
   border-radius: 3px; }
 
 .portfolio-item__description {
@@ -156,6 +156,11 @@ main {
 
 .portfolio-item__date {
   color: #6f6f6f; }
+
+.portfolio-item__image-link {
+  transition: opacity 0.2s linear; }
+  .portfolio-item__image-link:hover, .portfolio-item__image-link:focus, .portfolio-item__image-link:active {
+    opacity: 0.85; }
 
 .portfolio-item__link {
   display: block; }
