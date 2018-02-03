@@ -1,40 +1,59 @@
 ---
 layout: wide
+title: Experience
 ---
 
-<h2>Experience</h2>
-
 {% for job in site.data.resume.jobs %}
-	{% if job.employer %}<h3>{{ job.employer }}</h3>{% endif %}
-	<p>{{ job.date }}</p>
-	{% if job.title %}<p>{{ job.title }}</p>{% endif %}
+	{% if job.title %}
+		<h3 class="resume__item-title">
+			{{ job.title }}
+			{% if job.date %}
+				<span class="resume__date">{{ job.date }}</span>
+			{% endif %}
+		</h3>
+	{% endif %}
+	{% if job.employer %}
+		<h4>
+			{{ job.employer }}
+			{% if job.location %}
+				<span class="resume__location">{{ job.location.city }}, {{ job.location.state }}</span>
+			{% endif %}
+		</h4>
+	{% endif %}
 	{% if job.details %}
-		<ul>
+		<ul class="resume__detail-list">
 			{% for detail in job.details %}
 				<li>{{ detail }}</li>
 			{% endfor %}
 		</ul>
 	{% endif %}
-	{% if job.location %}<p>{{ job.location.city }}, {{ job.location.state }}</p>{% endif %}
 {% endfor %}
 
-<h2>Education</h2>
+<h2 class="page-title">Education</h2>
 
 {% for school in site.data.resume.education %}
-	<h3>{{ school.name }}</h3>
-	<p>{{ school.date }}</p>
-	{% if school.major %}<p>{{ school.major }}</p>{% endif %}
+	<h3 class="resume__item-title">
+		{{ school.name }}
+		<span class="resume__date">{{ school.date }}</span>
+	</h3>
+	{% if school.major %}
+		<h4>
+			{{ school.major }}
+			{% if school.location %}
+				<span class="resume__location">{{ school.location.city }}, {{ school.location.state }}</span>
+			{% endif %}
+		</h4>
+	{% endif %}
 	{% if school.details %}
-		<ul>
+		<ul class="resume__detail-list">
 			{% for detail in school.details %}
 				<li>
-					<strong>{{ detail.name }}: </strong>
+					<strong class="resume__detail-title">{{ detail.name }} </strong>
 					{% for item in detail.list %}
-						<span>{{ item }}</span>
+						<span class="resume__detail-item">{{ item }}</span>
 					{% endfor %}
 				</li>
 			{% endfor %}
 		</ul>
 	{% endif %}
-	{% if school.location %}<p>{{ school.location.city }}, {{ school.location.state }}</p>{% endif %}
 {% endfor %}

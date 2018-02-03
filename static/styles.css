@@ -141,6 +141,8 @@ main {
   padding: 0.5rem;
   background-color: #dcf1f4;
   margin-bottom: 2.5rem; }
+  .page-title:not(:first-child) {
+    margin-top: 2.5rem; }
 
 .page-title--empty {
   background-color: #b5e1e8;
@@ -197,5 +199,30 @@ main {
 
 .portfolio-teaser__column--text {
   grid-area: teaser-text; }
+
+.resume__item-title {
+  margin-top: 2rem; }
+
+.resume__date {
+  font-size: 0.75em;
+  color: #6f6f6f;
+  padding-left: 0.3em; }
+
+.resume__location {
+  font-weight: 300;
+  padding-left: 0.3em; }
+
+.resume__detail-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.resume__detail-title {
+  padding-right: 0.3em; }
+
+.resume__detail-item::after {
+  content: ", "; }
+.resume__detail-item:last-child::after {
+  content: ""; }
 
 /*# sourceMappingURL=styles.css.map */

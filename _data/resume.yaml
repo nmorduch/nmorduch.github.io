@@ -1,16 +1,12 @@
 jobs:
 - title: Worker-Owner
   employer: <a href="http://littleweaverweb.com/">Little Weaver Web Collective</a>
-  date: January 2014 - present
+  date: 2014 - 2108
   details:
-  - "Used experience in design and coding, freelance work, and student groups to found company of web developers around the USA and build from 3 to 6 people in 2 years"
+  - "Founded company of web developers around North America"
+  - "Built company from 3 to 7 people within 2 years"
+  - "Research, design, and production of websites and print materials"
   - "Managed clients, coworkers, company email account, and bookkeeping"
-  - "Pruned role to core work designing and producing web pages and print materials"
-- employer: Freelance Design
-  date: 2012 - present
-  details:
-  - "Design websites, posters, and other materials for local events and other clients"
-  - "Use tools including Adobe Creative Suite, silkscreen, and letterpress"
 - title: UI/UX Assistant
   employer: Oberlin College Office of Communications
   location:
@@ -19,9 +15,14 @@ jobs:
   date: 2011 - 2014
   details:
   - "Learned web development and in under 2 years became integral part of web team"
-  - "Worked as part of a team to design, repair, and enhance front end of Oberlin websites, including homepage, News Center, and OnCampus"
-  - "Managed tasks within development team"
-  - "Wrote for the <a href='https://oncampus.oberlin.edu/webteam'>Oberlin Webteam Blog</a>"
+- title: Student Designer
+  employer: Oberlin College Office of Communications
+  location:
+    city: Oberlin
+    state: Ohio
+  date: Fall 2012
+  details:
+  - "Designed promotional banners for internal website and digital sign machines"
 - title: Web Development Intern
   employer: <a href="http://www.iperdesign.com/">iperdesign</a>
   location:
@@ -29,7 +30,7 @@ jobs:
     state: Pennsylvania
   date: Fall 2012
   details:
-  - "Front end development and responsive design"
+  - "Front end development and responsive design from desktop-only mockups"
   - "Customized embedded Google Maps for iperdesign and client sites"
 - title: Woodworking Intern
   employer: <a href="http://www.timlewisstudio.com/">Tim Lewis Studio</a>
@@ -39,15 +40,6 @@ jobs:
   date: Fall 2012
   details:
   - "Assisted in production and installation of various pieces"
-  - "Completed personal project: small collection of <a href='https://www.dropbox.com/s/3h8mkpgwdfmhagu/2012.11.cdstand-11.jpg'>CD stands</a>"
-- title: Student Designer
-  employer: Oberlin College Office of Student Communications
-  location:
-    city: Oberlin
-    state: Ohio
-  date: Fall 2012
-  details:
-  - "Designed banners for OnCampus site and digital sign machines around campus"
 - title: Apprentice
   employer: "<a href='http://eliwhitney.org/''>Eli Whitney Museum & Workshop</a>"
   location:
@@ -63,26 +55,18 @@ education:
   location:
     city: Oberlin
     state: Ohio
-  date: 2010-2014
+  date: 2014
   major: Mathematics
   details:
-  - name: Art Classes
+  - name: Selected Classes
     list:
+    - Principles of Computer Science I & II
     - Design as Social Process
     - Color Theory (painting)
     - Screen Process Printing
-    - With the Grain (woodworking)
+    - With the Grain (sculpture/woodworking)
+    - Letterpress Printing
   - name: Campus Jobs
     list:
-    - Admissions Tour Guide
     - IT Help Desk
-  - name: Activities
-    list:
-    - Nothing But Treble (a capella group)
-    - Oberlin Student Cooperative Association
-    - Contra Dance and Swing Dance Clubs
-  - name: Study Away
-    list:
-    - <a href="http://tpc.edu/">The Philadelphia Center</a>
-    - Fall 2012
-    - Contra Dance and Swing Dance Clubs
+    - Tour Guide
