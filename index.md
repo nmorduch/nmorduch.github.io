@@ -4,7 +4,7 @@ layout: big-text
 
 **I've always been drawn to form determined by function.**
 As a [web]({{ baseurl }}/work/web) and [print]({{ baseurl }}/work/print) designer, I make research-informed decisions in order to develop usable products that balance the needs of stakeholders and users.
-My ideal design is so easy and goes unnoticed, with delightful details.
+My ideal design is easy to use and goes unnoticed, with delightful details.
 
 I cofounded [Little Weaver Web Collective](http://littleweaverweb.com), a web development agency, in 2014, and built it from 3 to 7 people in the first 2 years.
 
