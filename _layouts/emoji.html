@@ -1,0 +1,24 @@
+---
+layout: head
+---
+
+<body class="layout">
+	<header class="header">
+		<h1 class="header__title">{{ site.name }}</h1>
+		<nav>
+			<ul class="header__nav header__nav--emoji">
+				{% for link in site.data.navigation.navigation %}
+					<li class="header__nav-item">
+						<a href="{{ site.baseurl }}/{{ link.link }}">{{ link.emoji }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</header>
+	<main>
+		{% include page-title.html %}
+		<div class="layout__content--big-text layout__content--emoji">
+			{{ content }}
+		</div>
+	</main>
+</body>

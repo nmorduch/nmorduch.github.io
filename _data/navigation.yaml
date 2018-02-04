@@ -1,13 +1,19 @@
 navigation:
 - title: About
   link: ""
+  emoji: 👤
 - title: Web
   link: work/web
+  emoji: 🕸
 - title: Print
   link: work/print
+  emoji: 🖨
 - title: Wood
   link: work/wood
+  emoji: 🌳
 - title: Clay
   link: work/clay
+  emoji: 🥣
 - title: Photo
   link: work/photo
+  emoji: 📷
