@@ -154,7 +154,7 @@ main {
   border-radius: 3px; }
 
 .portfolio-item__image--only {
-  box-shadow: 0 0 1.5px #919191;
+  border: 1px solid #ddd;
   border-radius: 3px; }
 
 .portfolio-item__description {
