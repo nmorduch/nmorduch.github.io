@@ -3,11 +3,11 @@
 	margin-top: -2rem
 	padding-top: 2rem
 
-	padding-bottom: 2rem
-	border-bottom: 1px solid $gray10
-	margin-bottom: 2rem
-	&:last-child
-		border-bottom-width: 0
+	&:not(:last-child)
+		padding-bottom: 2rem
+		border-bottom: 1px solid $gray10
+		margin-bottom: 2rem
+
 	display: grid
 	grid-template-columns: 50fr 50fr
 	grid-template-rows: auto

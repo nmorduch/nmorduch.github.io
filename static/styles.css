@@ -207,16 +207,15 @@ main {
 .portfolio-teaser {
   margin-top: -2rem;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 50fr 50fr;
   grid-template-rows: auto;
   grid-template-areas: "teaser-image teaser-text";
   grid-gap: 1rem; }
-  .portfolio-teaser:last-child {
-    border-bottom-width: 0; }
+  .portfolio-teaser:not(:last-child) {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2rem; }
   @media (max-width: 447px) {
     .portfolio-teaser {
       grid-template-columns: auto;
