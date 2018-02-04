@@ -1,6 +1,13 @@
-<div class="portfolio-teaser">
+{% capture post_id %}{{ post.id | remove: "/" }}{% endcapture %}
+
+<div class="portfolio-teaser" id="{{ post_id }}">
 	<div class="portfolio-teaser__column--text">
-		<h3 id="{{ post.id }}">{{ post.title }}</h3>
+		<h3>
+			{{ post.title }}
+			<a href="#{{ post_id }}" title="permalink" class="portfolio-item__permalink">
+				&#x1f517;
+			</a>
+		</h3>
 
 		<p class="portfolio-item__date">{{ post.date | date: "%B %Y" }}</p>
 

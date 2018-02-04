@@ -173,11 +173,20 @@ main {
   .portfolio-item__link::after {
     content: " ▸"; }
 
+.portfolio-item__permalink {
+  font-size: 0.7em;
+  opacity: 0.5;
+  transition: opacity 0.2s linear; }
+  .portfolio-item__permalink:hover, .portfolio-item__permalink:focus, .portfolio-item__permalink:active {
+    opacity: 1; }
+
 .photo-layout {
   columns: 200px 2;
   column-gap: 0.5rem; }
 
 .portfolio-teaser {
+  margin-top: -2rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #ddd;
   margin-bottom: 2rem;
