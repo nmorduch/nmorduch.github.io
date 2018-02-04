@@ -47,11 +47,11 @@ a {
   transition-duration: 0.1s;
   transition-timing-function: linear;
   transition-property: color, background-color;
-  color: #158fa2;
+  color: #127b8b;
   text-decoration: none;
   font-weight: 400; }
   a:hover, a:focus, a:active {
-    color: #0f6775; }
+    color: #0c535e; }
   a:hover, a:focus, a:active {
     text-decoration: none; }
 
@@ -150,13 +150,13 @@ main {
 
 .page-title {
   padding: 0.5rem;
-  background-color: #dcf1f4;
+  background-color: #d8f3f7;
   margin-bottom: 2.5rem; }
   .page-title:not(:first-child) {
     margin-top: 2.5rem; }
 
 .page-title--empty {
-  background-color: #b5e1e8;
+  background-color: #aee6ef;
   height: 0.25rem;
   margin-bottom: 2rem; }
 
