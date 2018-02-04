@@ -15,7 +15,7 @@ I've been making things for as long as I can remember, and I find that my time s
 Rather than two-dimensional media for consuming and manipulating information, these are three-dimensional tools.
 I like to play with glazes and shaping the outside of my pots, but always leave the rims and insides smooth so that they can be used.
 
-I also enjoy [cooking]({{ baseurl }}/work/print/#/cooking), reading, and the [outdoors]({{ baseurl }}/work/photo).
+I also enjoy [cooking]({{ baseurl }}/work/print#cooking), reading, and the [outdoors]({{ baseurl }}/work/photo).
 The first two involve interacting with design, while the latter affords the beauty of the undesigned natural world.
 
 Technologies I use include Sketch, InDesign, Illustrator, Photoshop, HTML, CSS, Sass, and BEM, as well as Django and Liquid templates.
