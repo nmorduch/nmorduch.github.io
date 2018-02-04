@@ -13,7 +13,7 @@ title: Experience
 		</h3>
 	{% endif %}
 	{% if job.employer %}
-		<h4>
+		<h4 class="resume__employer">
 			{{ job.employer }}
 			{% if job.location %}
 				<span class="resume__location">{{ job.location.city }}, {{ job.location.state }}</span>
@@ -37,7 +37,7 @@ title: Experience
 		<span class="resume__date">{{ school.date }}</span>
 	</h3>
 	{% if school.major %}
-		<h4>
+		<h4 class="resume__employer">
 			{{ school.major }}
 			{% if school.location %}
 				<span class="resume__location">{{ school.location.city }}, {{ school.location.state }}</span>
