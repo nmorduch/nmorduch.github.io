@@ -55,6 +55,21 @@ a {
   a:hover, a:focus, a:active {
     text-decoration: none; }
 
+p a {
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  transition-property: color, background-color;
+  color: #0f6775;
+  text-decoration: none;
+  background-color: #e5f7fa;
+  padding: 0 0.2em; }
+  p a:hover, p a:focus, p a:active {
+    color: #1d1d1d; }
+  p a:hover, p a:focus, p a:active {
+    text-decoration: none; }
+  p a:hover, p a:focus, p a:active {
+    background-color: #d8f3f7; }
+
 h1,
 h2,
 h3,
@@ -141,12 +156,6 @@ main {
   @media (min-width: 528px) {
     .layout__content--big-text {
       font-size: 1.5rem; } }
-
-.layout__content--emoji a {
-  background-color: #e7f5f8;
-  padding: 0 0.25em; }
-  .layout__content--emoji a:hover, .layout__content--emoji a:focus, .layout__content--emoji a:active {
-    background-color: #b5e1e8; }
 
 .page-title {
   padding: 0.5rem;

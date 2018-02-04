@@ -47,6 +47,13 @@ a
 	+link--no-underline
 	font-weight: $sans-bold
 
+p a
+	+link--no-underline(darken($link-color,5), $text-color)
+	background-color: lighten($brand-secondary,3)
+	padding: 0 0.2em
+	+hover
+		background-color: $brand-secondary
+
 h1,
 h2,
 h3,
