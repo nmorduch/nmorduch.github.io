@@ -10,12 +10,12 @@ html {
   height: 100%;
   font-family: "Roboto", Calibri, "Gil Sans", sans-serif;
   font-weight: 300;
-  color: #1d1d1d; }
+  color: #1d1d1d;
+  font-size: 16px; }
 
 body {
   margin: 0;
   height: 100%;
-  font-size: 16px;
   line-height: 1.5; }
 
 b,
