@@ -35,24 +35,24 @@ jobs:
   details:
   - Developed front end and responsive design from desktop-only mockups
   - Customized embedded Google Maps for Iperdesign and client sites
-- title: Woodworking Intern
-  employer: Tim Lewis Studio
-  location:
-    city: Philadelphia
-    state: Pennsylvania
-  date: Fall 2012
-  details:
-  - Assisted in production and installation of various pieces
-  - Designed and produced two independent projects
-- title: Apprentice
-  employer: Eli Whitney Museum & Workshop
-  location:
-    city: Hamden
-    state: Connecticut
-  date: 2005-2011
-  details:
-  - Taught people of all ages how to work with wood and electronics
-  - Designed woodworking projects for week-long programs for children
+# - title: Woodworking Intern
+#   employer: Tim Lewis Studio
+#   location:
+#     city: Philadelphia
+#     state: Pennsylvania
+#   date: Fall 2012
+#   details:
+#   - Assisted in production and installation of various pieces
+#   - Designed and produced two independent projects
+# - title: Apprentice
+#   employer: Eli Whitney Museum & Workshop
+#   location:
+#     city: Hamden
+#     state: Connecticut
+#   date: 2005-2011
+#   details:
+#   - Taught people of all ages how to work with wood and electronics
+#   - Designed woodworking projects for week-long programs for children
 
 education:
 - name: Oberlin College
