@@ -16,6 +16,18 @@
 
 .resume__detail-list
 	+list--unstyled
+	margin-left: 0.5em
+
+.resume__detail-list-item
+	$width: 0.5em
+	margin-left: $width
+	text-indent: -$width
+
+	&::before
+		display: inline-block
+		width: $width
+		content: "–"
+		color: $gray20--text
 
 .resume__detail-title
 	padding-right: 0.3em

@@ -247,7 +247,17 @@ main {
 .resume__detail-list {
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin-left: 0.5em; }
+
+.resume__detail-list-item {
+  margin-left: 0.5em;
+  text-indent: -0.5em; }
+  .resume__detail-list-item::before {
+    display: inline-block;
+    width: 0.5em;
+    content: "–";
+    color: #919191; }
 
 .resume__detail-title {
   padding-right: 0.3em; }

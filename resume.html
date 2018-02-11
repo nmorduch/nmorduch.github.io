@@ -23,7 +23,7 @@ title: Experience
 	{% if job.details %}
 		<ul class="resume__detail-list">
 			{% for detail in job.details %}
-				<li>{{ detail }}</li>
+				<li class="resume__detail-list-item">{{ detail }}</li>
 			{% endfor %}
 		</ul>
 	{% endif %}
@@ -47,8 +47,7 @@ title: Experience
 	{% if school.details %}
 		<ul class="resume__detail-list">
 			{% for detail in school.details %}
-				<li>
-					<strong class="resume__detail-title">{{ detail.name }} </strong>
+				<li class="resume__detail-list-item"><strong class="resume__detail-title">{{ detail.name }}</strong>
 					{% for item in detail.list %}
 						<span class="resume__detail-item">{{ item }}</span>
 					{% endfor %}

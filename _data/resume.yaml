@@ -1,12 +1,13 @@
 jobs:
 - title: Worker-Owner
-  employer: <a href="http://littleweaverweb.com/">Little Weaver Web Collective</a>
+  employer: Little Weaver Web Collective
   date: 2014 - 2108
   details:
-  - "Founded company of web developers around North America"
-  - "Built company from 3 to 7 people within 2 years"
-  - "Research, design, and production of websites and print materials"
-  - "Managed clients, coworkers, company email account, and bookkeeping"
+  - Founded company of web developers and designers around North America
+  - Built company from 3 to 7 people within 2 years
+  - Researched, designed, and produced websites and print materials
+  - Coordinated client relationships, projects, and coworkers
+  - Managed bookkeeping, payroll, and company email account
 - title: UI/UX Assistant
   employer: Oberlin College Office of Communications
   location:
@@ -14,7 +15,8 @@ jobs:
     state: Ohio
   date: 2011 - 2014
   details:
-  - "Learned web development and in under 2 years became integral part of web team"
+  - Supported web team in design and development of Oberlin websites
+  - Led design of Oberlin News Center with 2 years of experience
 - title: Student Designer
   employer: Oberlin College Office of Communications
   location:
@@ -22,33 +24,35 @@ jobs:
     state: Ohio
   date: Fall 2012
   details:
-  - "Designed promotional banners for internal website and digital sign machines"
+  - Designed promotional banners for internal website and digital sign machines
+  - Adhered to branding and incorporated feedback
 - title: Web Development Intern
-  employer: <a href="http://www.iperdesign.com/">iperdesign</a>
+  employer: Iperdesign
   location:
     city: Philadelphia
     state: Pennsylvania
   date: Fall 2012
   details:
-  - "Front end development and responsive design from desktop-only mockups"
-  - "Customized embedded Google Maps for iperdesign and client sites"
+  - Developed front end and responsive design from desktop-only mockups
+  - Customized embedded Google Maps for Iperdesign and client sites
 - title: Woodworking Intern
-  employer: <a href="http://www.timlewisstudio.com/">Tim Lewis Studio</a>
+  employer: Tim Lewis Studio
   location:
     city: Philadelphia
     state: Pennsylvania
   date: Fall 2012
   details:
-  - "Assisted in production and installation of various pieces"
+  - Assisted in production and installation of various pieces
+  - Designed and produced two independent projects
 - title: Apprentice
-  employer: "<a href='http://eliwhitney.org/''>Eli Whitney Museum & Workshop</a>"
+  employer: Eli Whitney Museum & Workshop
   location:
     city: Hamden
     state: Connecticut
   date: 2005-2011
   details:
-  - "Taught people of all ages how to work with wood and electronics"
-  - "Used hand and power tools for woodworking, including designing projects for week-long programs"
+  - Taught people of all ages how to work with wood and electronics
+  - Designed woodworking projects for week-long programs for children
 
 education:
 - name: Oberlin College
@@ -56,9 +60,9 @@ education:
     city: Oberlin
     state: Ohio
   date: 2014
-  major: Mathematics
+  major: BA in Mathematics
   details:
-  - name: Selected Classes
+  - name: Selected courses
     list:
     - Principles of Computer Science I & II
     - Design as Social Process
@@ -67,7 +71,7 @@ education:
     - With the Grain (sculpture/woodworking)
     - Letterpress Printing
     - Math Art private reading
-  - name: Campus Jobs
+  - name: Additional campus jobs
     list:
     - IT Help Desk
     - Tour Guide
