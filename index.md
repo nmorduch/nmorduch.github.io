@@ -11,9 +11,7 @@ I cofounded [Little Weaver Web Collective](http://littleweaverweb.com), a web de
 My time with Little Weaver has been invaluable for learning how to work with diverse stakeholders, run a business, and collaborate with coworkers, as well as for figuring out exactly what work I want to be doing.
 I love fitting new features into the puzzle of people's needs and current branding, so in 2018 I've decided to seek a career with an established brand so I can do just that.
 
-I've been making things for as long as I can remember, and I find that my time spent on [woodworking]({{ baseurl }}/work/wood) and [pottery]({{ baseurl }}/work/clay) broadens my ways of thinking about design.
-Rather than two-dimensional media for consuming and manipulating information, these are three-dimensional tools.
-I like to play with glazes and shaping the outside of my pots, but always leave the rims and insides smooth so that they can be used.
+I've been making things for as long as I can remember, and I find that my time spent on [woodworking]({{ baseurl }}/work/wood) and [pottery]({{ baseurl }}/work/clay) broadens my ways of thinking about usability and design. Investigating user needs is just as important with them, but concerns touching pieces rather than reading and pressing buttons.
 
 I also enjoy [cooking]({{ baseurl }}/work/print#cooking), reading, and the [outdoors]({{ baseurl }}/work/photo).
 The first two involve interacting with design, while the latter affords the beauty of the undesigned natural world.
