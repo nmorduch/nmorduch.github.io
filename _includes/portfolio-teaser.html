@@ -26,11 +26,11 @@
 	<div class="portfolio-teaser__column--image">
 		{% for image in post.img %}
 			{% if image.url %}
-				<a href="{{ image.url }}" class="portfolio-item__image-link">
+				<a href="{{ image.url }}" class="portfolio-item__image-link portfolio-item__image-link--text-layout">
 			{% elsif post.links %}
-				<a href="{{ post.links.first.url }}" class="portfolio-item__image-link">
+				<a href="{{ post.links.first.url }}" class="portfolio-item__image-link portfolio-item__image-link--text-layout">
 			{% else %}
-				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}" class="portfolio-item__image-link">
+				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}" class="portfolio-item__image-link portfolio-item__image-link--text-layout">
 			{% endif %}
 				<img src="{{ site.baseurl }}{{ site.imageurl }}/{% if image.thumb %}thumbs/{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="portfolio-item__image">
 			</a>

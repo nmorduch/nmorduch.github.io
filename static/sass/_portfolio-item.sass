@@ -1,10 +1,11 @@
 .portfolio-item__image
+	display: block
 	filter: drop-shadow(0 0 1px $gray20--text)
 	border-radius: 3px
 
 .portfolio-item__image--only
 	border: 1px solid $gray10
-	border-radius: 3px
+	filter: none
 
 .portfolio-item__description
 	font-size: $h4
@@ -13,9 +14,17 @@
 	color: $gray50--text
 
 .portfolio-item__image-link
+	display: block
 	transition: opacity .2s linear
 	+hover
 		opacity: 0.85
+
+.portfolio-item__image-link--text-layout
+	&:not(:last-child)
+		margin-bottom: 1rem
+
+.portfolio-item__image-link--photo-layout
+	margin-bottom: 0.5rem
 
 .portfolio-item__link
 	display: block

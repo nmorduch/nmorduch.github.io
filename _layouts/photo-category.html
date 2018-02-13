@@ -12,13 +12,13 @@ layout: wide
 	{% for post in site.categories[page.category] %}
 		{% for image in post.img %}
 			{% if image.url %}
-				<a href="{{ image.url }}" class="portfolio-item__image-link">
+				<a href="{{ image.url }}" class="portfolio-item__image-link portfolio-item__image-link--photo-layout">
 			{% elsif post.links %}
-				<a href="{{ post.links.first.url }}" class="portfolio-item__image-link">
+				<a href="{{ post.links.first.url }}" class="portfolio-item__image-link portfolio-item__image-link--photo-layout">
 			{% else %}
-				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}" class="portfolio-item__image-link">
+				<a href="{{ site.baseurl }}{{ site.imageurl }}/{{ image.large }}" class="portfolio-item__image-link portfolio-item__image-link--photo-layout">
 			{% endif %}
-				<img src="{{ site.baseurl }}{{ site.imageurl }}/{% if image.thumb %}thumbs/{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="portfolio-item__image--only">
+				<img src="{{ site.baseurl }}{{ site.imageurl }}/{% if image.thumb %}thumbs/{{ image.thumb }}{% else %}{{ image.large }}{% endif %}" alt="{{ post.title }}" class="portfolio-item__image portfolio-item__image--photo-layout">
 			</a>
 		{% endfor %}
 	{% endfor %}

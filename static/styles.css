@@ -170,12 +170,13 @@ main {
   margin-bottom: 2rem; }
 
 .portfolio-item__image {
+  display: block;
   filter: drop-shadow(0 0 1px #919191);
   border-radius: 3px; }
 
 .portfolio-item__image--only {
   border: 1px solid #ddd;
-  border-radius: 3px; }
+  filter: none; }
 
 .portfolio-item__description {
   font-size: 1.2rem; }
@@ -184,9 +185,16 @@ main {
   color: #6f6f6f; }
 
 .portfolio-item__image-link {
+  display: block;
   transition: opacity 0.2s linear; }
   .portfolio-item__image-link:hover, .portfolio-item__image-link:focus, .portfolio-item__image-link:active {
     opacity: 0.85; }
+
+.portfolio-item__image-link--text-layout:not(:last-child) {
+  margin-bottom: 1rem; }
+
+.portfolio-item__image-link--photo-layout {
+  margin-bottom: 0.5rem; }
 
 .portfolio-item__link {
   display: block; }
