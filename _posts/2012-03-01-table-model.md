@@ -1,5 +1,5 @@
 ---
-title: Coffee Table Model
+title: Coffee table model
 categories: wood
 img:
 - large: table-model.jpg
