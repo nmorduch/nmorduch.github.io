@@ -13,7 +13,7 @@ I love fitting features into the puzzle of users' and stakeholders' needs, so in
 
 I've been making things for as long as I can remember, and I find that my time spent on [woodworking]({{ baseurl }}/work/wood) and [pottery]({{ baseurl }}/work/clay) broadens my ways of thinking about usability and design. Investigating user needs is just as important with them, but concerns touching pieces rather than reading and pressing buttons.
 
-I also enjoy [cooking]({{ baseurl }}/work/print#cooking), reading, and the [outdoors]({{ baseurl }}/work/photo).
+I also enjoy cooking, reading, and the [outdoors]({{ baseurl }}/work/photo).
 The first two involve interacting with design, while the latter affords the beauty of the undesigned natural world.
 
 Technologies I use include Sketch, InDesign, Illustrator, Photoshop, HTML, CSS, Sass, and BEM, as well as Django and Liquid templates with a little dabbling in Python and Javascript to support my design work.
