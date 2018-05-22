@@ -9,6 +9,8 @@ img:
 - thumb: pft-filter.png
 ---
 
-I worked on this project as part of Little Weaver Web Collective. I was a large part of the research for this project, which involved bringing together a coalition of many stakeholder organizations and interviewing a number of different types of users. We learned in user interviews that journalists would use this website to support articles they were writing, and for that purpose would need strong sourcing of information as well complex filtering. We found that various stakeholders and users had different definitions of who was a journalist, so we recommended and provided information for the discussion of this project's definition that is included on the site.
+I worked on the research, development, and design of this project as part of Little Weaver Web Collective.
 
-The overall design was done by Harris Lapiroff with extensive feedback from me. I did a lot of work on the header and footer, especially with an eye to responsiveness and giving equal visual weight to the logos of each of the organizations.
+Research for this project involved bringing together a coalition of many stakeholder organizations and interviewing a number of different types of users. When interviewing potential users, we learned that the most important feature was filtering incidents by specific criteria to identify trends, and I laid out architecture for detailed tagging to aid that filtering. Journalists, a major user group, needed data to rigorously evaluates information, so I recommended prominent locations for source links, methodology explanations, and contact information. We also found that various stakeholders and users had different definitions of who was a journalist, so I recommended and provided information for the discussion of this project's definition that is included on the site.
+
+For this design, I provided detailed requirements to another designer on my team and gave extensive feedback on the design. I also participated in the frontend development, working especially on responsiveness of the header and footer and on giving equal visual weight to the logos of each of the organizations.
