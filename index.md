@@ -13,7 +13,7 @@ I've been making things for as long as I can remember, and I find that my time s
 I also enjoy cooking, reading, and the [outdoors]({{ baseurl }}/work/photo).
 The first two involve interacting with design, while the latter affords the beauty of the undesigned natural world.
 
-Technologies I use include Sketch, InDesign, Illustrator, Photoshop, HTML, CSS, Sass, and BEM, as well as Django and Liquid templates with a little dabbling in Python and Javascript to support my design work.
+Technologies I use include Sketch, InDesign, Illustrator, Photoshop, HTML, CSS, Sass, and BEM, as well as Django and Liquid templates with Python and Javascript.
 
 You can
 [email me](mailto:nmorduch@gmail.com)
