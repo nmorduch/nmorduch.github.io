@@ -6,7 +6,8 @@ jobs:
   - Cofounded company of web developers and designers around North America, built from 3 to 7 people in two years
   - Led client projects from contract negotiation and project management to launch, in a budget-conscious, rapid, iterative environment
   - Led and presented design of complex websites and web applications for clients including Freedom of the Press Foundation, from discovery, wireframes, and prototypes, through production design and template development
-  - Conducted research including stakeholder and user interviews, and synthesized actionable tasks, information architecture, and personas
+  - Developed modular, responsive templates and components, using HTML5 and Sass with React, Django, and Wagtail
+  - Conducted research including stakeholder and user interviews, and synthesized design requirements, information architecture, and personas
 - title: UI/UX Assistant
   employer: Oberlin College Office of Communications
   location:
@@ -15,7 +16,7 @@ jobs:
   date: 2011 - 2014
   details:
   - Supported web team in design and development of Oberlin websites
-  - Led design of the Oberlin News Center
+  - Led design of the Oberlin News Center and developed Django templates for that and other projects
 - title: Student Designer
   employer: Oberlin College Office of Communications
   location:
@@ -32,8 +33,7 @@ jobs:
     state: Pennsylvania
   date: Fall 2012
   details:
-  - Developed front end and responsive design from desktop-only mockups
-  - Customized embedded Google Maps for Iperdesign and client sites
+  - Developed responsive static websites from desktop-only mockups
 # - title: Woodworking Intern
 #   employer: Tim Lewis Studio
 #   location:
@@ -63,7 +63,7 @@ education:
   details:
   - name: Selected courses
     list:
-    - Principles of Computer Science I & II
+    - Principles of Computer Science I & II (Java programming)
     - Design as Social Process
     - Color Theory (painting)
     - Screen Process Printing
@@ -73,4 +73,5 @@ education:
   - name: Additional campus jobs
     list:
     - IT Help Desk
-    - Tour Guide
+    - Campus Tour Guide
+    - Freelance Designer
