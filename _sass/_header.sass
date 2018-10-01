@@ -1,0 +1,22 @@
+.header
+	padding: 1rem 0
+
+.header__title
+	margin-bottom: 0.5rem
+	+media-breakpoint-up(small)
+		font-size: 3rem
+
+.header__nav
+	+list--unstyled
+	color: $gray50--text
+	font-size: 1.2rem
+
+.header__nav--emoji
+	font-size: 2rem
+	a
+		+hover
+			opacity: 0.5
+
+.header__nav-item
+	+list--comma(" •")
+	display: inline

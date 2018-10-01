@@ -1,0 +1,36 @@
+.resume__item-title
+	margin-top: 2rem
+	margin-bottom: 0.5rem
+
+.resume__date
+	font-size: 0.75em
+	color: $gray50--text
+	padding-left: 0.3em
+
+.resume__employer
+	margin-bottom: 0.5rem
+
+.resume__location
+	font-weight: $sans-regular
+	padding-left: 0.3em
+
+.resume__detail-list
+	+list--unstyled
+	margin-left: 0.5em
+
+.resume__detail-list-item
+	$width: 0.5em
+	margin-left: $width
+	text-indent: -$width
+
+	&::before
+		display: inline-block
+		width: $width
+		content: "–"
+		color: $gray20--text
+
+.resume__detail-title
+	padding-right: 0.3em
+
+.resume__detail-item
+	+list--comma

@@ -1,0 +1,70 @@
+// FONT SIZES
+
+$rem-in-px: 16px
+
+$h1: 2rem
+$h2: 1.8rem
+$h3: 1.5rem
+$h4: 1.2rem
+$h5: 1rem
+$h6: 1rem
+
+// FONT FAMILIES
+
+$sans-serif: "Roboto", Calibri, "Gil Sans", sans-serif
+$serif: "Roboto Slab", Georgia, serif
+$mono: monospace
+
+// FONT WEIGHTS
+
+$serif-regular: 300
+// $serif-bold: 400
+$sans-regular: 300
+$sans-bold: 400
+
+
+// COLORS
+// When possible, colors should include optically adjusted variations: e.g.,
+// $gray50--text (for text and thin borders) should be slightly darker than
+// $gray50 (for backgrounds and other color fields)
+
+$white: #FFF
+$gray10: #ddd
+$gray10--text: darken($gray10,10)
+$gray20: #aaa
+$gray20--text: darken($gray20,10)
+$gray50: #888
+$gray50--text: darken($gray50,10)
+$gray80: #444
+$gray80--text: darken($gray80,5)
+$gray90: #222
+$gray90--text: darken($gray90,2)
+$black: #000
+
+$brand-primary: #158fa2
+$brand-primary-text: darken(#158fa2,5)
+$brand-secondary: desaturate(lighten($brand-primary,55),10)
+$brand-secondary-text: darken($brand-secondary,10)
+
+$text-color: $gray90--text
+$link-color: $brand-primary-text
+$link-hover-color: darken($brand-primary-text, 10)
+
+
+// BREAKPOINTS
+// Be sure to add any extras to $breakpoints-map in mixins/_breakpoints.scss
+// $breakpoints-map mixins for sorting ascending and ensuring starting at 0 are not included, so do that yourself.
+
+$breakpoint-tiny: 0
+$breakpoint-extra-small: 28*$rem-in-px
+$breakpoint-small: 33*$rem-in-px
+$breakpoint-medium: 50*$rem-in-px
+$breakpoint-large: 80*$rem-in-px
+$breakpoint-extra-large: 95*$rem-in-px
+
+
+// BUTTONS
+
+$button-border-radius: 0.25rem
+$button-padding-x: 1rem
+$button-padding-y: 0.5rem
